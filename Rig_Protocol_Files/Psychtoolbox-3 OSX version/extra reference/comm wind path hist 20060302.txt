@@ -1,0 +1,2984 @@
+START COMMAND WINDOW **********************************
+
+nprepSrch(9,0,203,0,26,0,0,0);
+nprepSrch(9,14,203,1,26,1,0,0);
+nprepSrch(9,0,203,2,26,0,0,0);
+nprepSrch(9,14,203,3,26,1,0,0);
+nprepSrch(9,0,203,4,26,0,0,0);
+nprepSrch(9,14,203,5,26,1,0,0);
+nprepSrch(9,0,203,6,26,0,0,0);
+nprepSrch(9,22,203,7,26,1,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,7,26,1,0,0);
+disp z
+f5;
+z
+
+f1;
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,13,203,0,26,1,0,0);
+nprepSrch(3,13,203,1,26,1,0,0);
+nprepSrch(3,13,203,2,26,1,0,0);
+nprepSrch(3,13,203,3,26,1,0,0);
+nprepSrch(3,13,203,4,26,1,0,0);
+nprepSrch(3,13,203,5,26,1,0,0);
+nprepSrch(3,13,203,6,26,1,0,0);
+nprepSrch(3,22,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,13,203,0,26,1,0,0);
+nprepSrch(4,13,203,1,26,1,0,0);
+nprepSrch(4,13,203,2,26,1,0,0);
+nprepSrch(4,13,203,3,26,1,0,0);
+nprepSrch(4,13,203,4,26,1,0,0);
+nprepSrch(4,13,203,5,26,1,0,0);
+nprepSrch(4,13,203,6,26,1,0,0);
+nprepSrch(4,22,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,13,203,0,26,1,0,0);
+nprepSrch(9,13,203,1,26,1,0,0);
+nprepSrch(9,13,203,2,26,1,0,0);
+nprepSrch(9,13,203,3,26,1,0,0);
+nprepSrch(9,13,203,4,26,1,0,0);
+nprepSrch(9,13,203,5,26,1,0,0);
+nprepSrch(9,13,203,6,26,1,0,0);
+nprepSrch(9,22,203,7,26,1,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,7,26,1,0,0);
+disp z
+f5;
+z
+
+f1;
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,22,203,0,26,1,0,0);
+nprepSrch(3,0,203,1,26,0,0,0);
+nprepSrch(3,0,203,2,26,0,0,0);
+nprepSrch(3,0,203,3,26,0,0,0);
+nprepSrch(3,11,203,4,26,1,0,0);
+nprepSrch(3,0,203,5,26,0,0,0);
+nprepSrch(3,0,203,6,26,0,0,0);
+nprepSrch(3,0,203,7,26,0,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,22,203,0,26,1,0,0);
+nprepSrch(4,0,203,1,26,0,0,0);
+nprepSrch(4,0,203,2,26,0,0,0);
+nprepSrch(4,0,203,3,26,0,0,0);
+nprepSrch(4,11,203,4,26,1,0,0);
+nprepSrch(4,0,203,5,26,0,0,0);
+nprepSrch(4,0,203,6,26,0,0,0);
+nprepSrch(4,0,203,7,26,0,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,22,203,0,26,1,0,0);
+nprepSrch(9,0,203,1,26,0,0,0);
+nprepSrch(9,0,203,2,26,0,0,0);
+nprepSrch(9,0,203,3,26,0,0,0);
+nprepSrch(9,11,203,4,26,1,0,0);
+nprepSrch(9,0,203,5,26,0,0,0);
+nprepSrch(9,0,203,6,26,0,0,0);
+nprepSrch(9,0,203,7,26,0,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,0,26,1,0,0);
+disp z
+f1;
+z
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,12,203,0,26,1,0,0);
+nprepSrch(3,12,203,1,26,1,0,0);
+nprepSrch(3,12,203,2,26,1,0,0);
+nprepSrch(3,12,203,3,26,1,0,0);
+nprepSrch(3,12,203,4,26,1,0,0);
+nprepSrch(3,22,203,5,26,1,0,0);
+nprepSrch(3,12,203,6,26,1,0,0);
+nprepSrch(3,12,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,12,203,0,26,1,0,0);
+nprepSrch(4,12,203,1,26,1,0,0);
+nprepSrch(4,12,203,2,26,1,0,0);
+nprepSrch(4,12,203,3,26,1,0,0);
+nprepSrch(4,12,203,4,26,1,0,0);
+nprepSrch(4,22,203,5,26,1,0,0);
+nprepSrch(4,12,203,6,26,1,0,0);
+nprepSrch(4,12,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,12,203,0,26,1,0,0);
+nprepSrch(9,12,203,1,26,1,0,0);
+nprepSrch(9,12,203,2,26,1,0,0);
+nprepSrch(9,12,203,3,26,1,0,0);
+nprepSrch(9,12,203,4,26,1,0,0);
+nprepSrch(9,22,203,5,26,1,0,0);
+nprepSrch(9,12,203,6,26,1,0,0);
+nprepSrch(9,12,203,7,26,1,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,5,26,1,0,0);
+disp z
+f1;
+z
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,14,203,0,26,1,0,0);
+nprepSrch(3,0,203,1,26,0,0,0);
+nprepSrch(3,22,203,2,26,1,0,0);
+nprepSrch(3,0,203,3,26,0,0,0);
+nprepSrch(3,14,203,4,26,1,0,0);
+nprepSrch(3,0,203,5,26,0,0,0);
+nprepSrch(3,14,203,6,26,1,0,0);
+nprepSrch(3,0,203,7,26,0,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,14,203,0,26,1,0,0);
+nprepSrch(4,0,203,1,26,0,0,0);
+nprepSrch(4,22,203,2,26,1,0,0);
+nprepSrch(4,0,203,3,26,0,0,0);
+nprepSrch(4,14,203,4,26,1,0,0);
+nprepSrch(4,0,203,5,26,0,0,0);
+nprepSrch(4,14,203,6,26,1,0,0);
+nprepSrch(4,0,203,7,26,0,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,14,203,0,26,1,0,0);
+nprepSrch(9,0,203,1,26,0,0,0);
+nprepSrch(9,22,203,2,26,1,0,0);
+nprepSrch(9,0,203,3,26,0,0,0);
+nprepSrch(9,14,203,4,26,1,0,0);
+nprepSrch(9,0,203,5,26,0,0,0);
+nprepSrch(9,14,203,6,26,1,0,0);
+nprepSrch(9,0,203,7,26,0,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,2,26,1,0,0);
+disp z
+f1;
+z
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,12,203,0,26,1,0,0);
+nprepSrch(3,12,203,1,26,1,0,0);
+nprepSrch(3,12,203,2,26,1,0,0);
+nprepSrch(3,12,203,3,26,1,0,0);
+nprepSrch(3,12,203,4,26,1,0,0);
+nprepSrch(3,12,203,5,26,1,0,0);
+nprepSrch(3,12,203,6,26,1,0,0);
+nprepSrch(3,12,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,12,203,0,26,1,0,0);
+nprepSrch(4,12,203,1,26,1,0,0);
+nprepSrch(4,12,203,2,26,1,0,0);
+nprepSrch(4,12,203,3,26,1,0,0);
+nprepSrch(4,12,203,4,26,1,0,0);
+nprepSrch(4,12,203,5,26,1,0,0);
+nprepSrch(4,12,203,6,26,1,0,0);
+nprepSrch(4,12,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,12,203,0,26,1,0,0);
+nprepSrch(9,12,203,1,26,1,0,0);
+nprepSrch(9,12,203,2,26,1,0,0);
+nprepSrch(9,12,203,3,26,1,0,0);
+nprepSrch(9,12,203,4,26,1,0,0);
+nprepSrch(9,12,203,5,26,1,0,0);
+nprepSrch(9,12,203,6,26,1,0,0);
+nprepSrch(9,12,203,7,26,1,0,0);
+disp z
+f1;
+z
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,0,203,0,26,0,0,0);
+nprepSrch(3,0,203,1,26,0,0,0);
+nprepSrch(3,12,203,2,26,1,0,0);
+nprepSrch(3,0,203,3,26,0,0,0);
+nprepSrch(3,0,203,4,26,0,0,0);
+nprepSrch(3,0,203,5,26,0,0,0);
+nprepSrch(3,12,203,6,26,1,0,0);
+nprepSrch(3,0,203,7,26,0,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,0,203,0,26,0,0,0);
+nprepSrch(4,0,203,1,26,0,0,0);
+nprepSrch(4,12,203,2,26,1,0,0);
+nprepSrch(4,0,203,3,26,0,0,0);
+nprepSrch(4,0,203,4,26,0,0,0);
+nprepSrch(4,0,203,5,26,0,0,0);
+nprepSrch(4,12,203,6,26,1,0,0);
+nprepSrch(4,0,203,7,26,0,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,0,203,0,26,0,0,0);
+nprepSrch(9,0,203,1,26,0,0,0);
+nprepSrch(9,12,203,2,26,1,0,0);
+nprepSrch(9,0,203,3,26,0,0,0);
+nprepSrch(9,0,203,4,26,0,0,0);
+nprepSrch(9,0,203,5,26,0,0,0);
+nprepSrch(9,12,203,6,26,1,0,0);
+nprepSrch(9,0,203,7,26,0,0,0);
+disp z
+f1;
+z
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,12,203,0,26,1,0,0);
+nprepSrch(3,12,203,1,26,1,0,0);
+nprepSrch(3,12,203,2,26,1,0,0);
+nprepSrch(3,12,203,3,26,1,0,0);
+nprepSrch(3,12,203,4,26,1,0,0);
+nprepSrch(3,22,203,5,26,1,0,0);
+nprepSrch(3,12,203,6,26,1,0,0);
+nprepSrch(3,12,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,12,203,0,26,1,0,0);
+nprepSrch(4,12,203,1,26,1,0,0);
+nprepSrch(4,12,203,2,26,1,0,0);
+nprepSrch(4,12,203,3,26,1,0,0);
+nprepSrch(4,12,203,4,26,1,0,0);
+nprepSrch(4,22,203,5,26,1,0,0);
+nprepSrch(4,12,203,6,26,1,0,0);
+nprepSrch(4,12,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,12,203,0,26,1,0,0);
+nprepSrch(9,12,203,1,26,1,0,0);
+nprepSrch(9,12,203,2,26,1,0,0);
+nprepSrch(9,12,203,3,26,1,0,0);
+nprepSrch(9,12,203,4,26,1,0,0);
+nprepSrch(9,22,203,5,26,1,0,0);
+nprepSrch(9,12,203,6,26,1,0,0);
+nprepSrch(9,12,203,7,26,1,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,5,26,1,0,0);
+disp z
+f1;
+z
+
+f4;
+
+f5;
+
+f5;
+
+eall2;
+
+eall2;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,11,203,0,26,1,0,0);
+nprepSrch(3,11,203,1,26,1,0,0);
+nprepSrch(3,11,203,2,26,1,0,0);
+nprepSrch(3,11,203,3,26,1,0,0);
+nprepSrch(3,11,203,4,26,1,0,0);
+nprepSrch(3,11,203,5,26,1,0,0);
+nprepSrch(3,11,203,6,26,1,0,0);
+nprepSrch(3,11,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,11,203,0,26,1,0,0);
+nprepSrch(4,11,203,1,26,1,0,0);
+nprepSrch(4,11,203,2,26,1,0,0);
+nprepSrch(4,11,203,3,26,1,0,0);
+nprepSrch(4,11,203,4,26,1,0,0);
+nprepSrch(4,11,203,5,26,1,0,0);
+nprepSrch(4,11,203,6,26,1,0,0);
+nprepSrch(4,11,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,11,203,0,26,1,0,0);
+nprepSrch(9,11,203,1,26,1,0,0);
+nprepSrch(9,11,203,2,26,1,0,0);
+nprepSrch(9,11,203,3,26,1,0,0);
+nprepSrch(9,11,203,4,26,1,0,0);
+nprepSrch(9,11,203,5,26,1,0,0);
+nprepSrch(9,11,203,6,26,1,0,0);
+nprepSrch(9,11,203,7,26,1,0,0);
+disp z
+f1;
+z
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,13,203,0,26,1,0,0);
+nprepSrch(3,0,203,1,26,0,0,0);
+nprepSrch(3,13,203,2,26,1,0,0);
+nprepSrch(3,0,203,3,26,0,0,0);
+nprepSrch(3,13,203,4,26,1,0,0);
+nprepSrch(3,0,203,5,26,0,0,0);
+nprepSrch(3,22,203,6,26,1,0,0);
+nprepSrch(3,0,203,7,26,0,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,13,203,0,26,1,0,0);
+nprepSrch(4,0,203,1,26,0,0,0);
+nprepSrch(4,13,203,2,26,1,0,0);
+nprepSrch(4,0,203,3,26,0,0,0);
+nprepSrch(4,13,203,4,26,1,0,0);
+nprepSrch(4,0,203,5,26,0,0,0);
+nprepSrch(4,22,203,6,26,1,0,0);
+nprepSrch(4,0,203,7,26,0,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,13,203,0,26,1,0,0);
+nprepSrch(9,0,203,1,26,0,0,0);
+nprepSrch(9,13,203,2,26,1,0,0);
+nprepSrch(9,0,203,3,26,0,0,0);
+nprepSrch(9,13,203,4,26,1,0,0);
+nprepSrch(9,0,203,5,26,0,0,0);
+nprepSrch(9,22,203,6,26,1,0,0);
+nprepSrch(9,0,203,7,26,0,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,6,26,1,0,0);
+disp z
+f1;
+z
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,12,203,0,26,1,0,0);
+nprepSrch(3,0,203,1,26,0,0,0);
+nprepSrch(3,12,203,2,26,1,0,0);
+nprepSrch(3,0,203,3,26,0,0,0);
+nprepSrch(3,12,203,4,26,1,0,0);
+nprepSrch(3,0,203,5,26,0,0,0);
+nprepSrch(3,22,203,6,26,1,0,0);
+nprepSrch(3,0,203,7,26,0,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,12,203,0,26,1,0,0);
+nprepSrch(4,0,203,1,26,0,0,0);
+nprepSrch(4,12,203,2,26,1,0,0);
+nprepSrch(4,0,203,3,26,0,0,0);
+nprepSrch(4,12,203,4,26,1,0,0);
+nprepSrch(4,0,203,5,26,0,0,0);
+nprepSrch(4,22,203,6,26,1,0,0);
+nprepSrch(4,0,203,7,26,0,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,12,203,0,26,1,0,0);
+nprepSrch(9,0,203,1,26,0,0,0);
+nprepSrch(9,12,203,2,26,1,0,0);
+nprepSrch(9,0,203,3,26,0,0,0);
+nprepSrch(9,12,203,4,26,1,0,0);
+nprepSrch(9,0,203,5,26,0,0,0);
+nprepSrch(9,22,203,6,26,1,0,0);
+nprepSrch(9,0,203,7,26,0,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,6,26,1,0,0);
+disp z
+f5;
+z
+
+f1;
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,11,203,0,26,1,0,0);
+nprepSrch(3,0,203,1,26,0,0,0);
+nprepSrch(3,11,203,2,26,1,0,0);
+nprepSrch(3,0,203,3,26,0,0,0);
+nprepSrch(3,11,203,4,26,1,0,0);
+nprepSrch(3,0,203,5,26,0,0,0);
+nprepSrch(3,11,203,6,26,1,0,0);
+nprepSrch(3,0,203,7,26,0,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,11,203,0,26,1,0,0);
+nprepSrch(4,0,203,1,26,0,0,0);
+nprepSrch(4,11,203,2,26,1,0,0);
+f5;
+
+nprepSrch(4,0,203,3,26,0,0,0);
+nprepSrch(4,11,203,4,26,1,0,0);
+nprepSrch(4,0,203,5,26,0,0,0);
+nprepSrch(4,11,203,6,26,1,0,0);
+nprepSrch(4,0,203,7,26,0,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,11,203,0,26,1,0,0);
+nprepSrch(9,0,203,1,26,0,0,0);
+nprepSrch(9,11,203,2,26,1,0,0);
+nprepSrch(9,0,203,3,26,0,0,0);
+nprepSrch(9,11,203,4,26,1,0,0);
+nprepSrch(9,0,203,5,26,0,0,0);
+nprepSrch(9,11,203,6,26,1,0,0);
+nprepSrch(9,0,203,7,26,0,0,0);
+disp z
+f1;
+z
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,22,203,0,26,1,0,0);
+nprepSrch(3,0,203,1,26,0,0,0);
+nprepSrch(3,0,203,2,26,0,0,0);
+nprepSrch(3,0,203,3,26,0,0,0);
+nprepSrch(3,13,203,4,26,1,0,0);
+nprepSrch(3,0,203,5,26,0,0,0);
+nprepSrch(3,0,203,6,26,0,0,0);
+nprepSrch(3,0,203,7,26,0,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,22,203,0,26,1,0,0);
+nprepSrch(4,0,203,1,26,0,0,0);
+nprepSrch(4,0,203,2,26,0,0,0);
+nprepSrch(4,0,203,3,26,0,0,0);
+nprepSrch(4,13,203,4,26,1,0,0);
+nprepSrch(4,0,203,5,26,0,0,0);
+nprepSrch(4,0,203,6,26,0,0,0);
+nprepSrch(4,0,203,7,26,0,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,22,203,0,26,1,0,0);
+nprepSrch(9,0,203,1,26,0,0,0);
+nprepSrch(9,0,203,2,26,0,0,0);
+nprepSrch(9,0,203,3,26,0,0,0);
+nprepSrch(9,13,203,4,26,1,0,0);
+nprepSrch(9,0,203,5,26,0,0,0);
+nprepSrch(9,0,203,6,26,0,0,0);
+nprepSrch(9,0,203,7,26,0,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,0,26,1,0,0);
+disp z
+f1;
+z
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,14,203,0,26,1,0,0);
+nprepSrch(3,0,203,1,26,0,0,0);
+nprepSrch(3,0,203,2,26,0,0,0);
+nprepSrch(3,0,203,3,26,0,0,0);
+nprepSrch(3,22,203,4,26,1,0,0);
+nprepSrch(3,0,203,5,26,0,0,0);
+nprepSrch(3,0,203,6,26,0,0,0);
+nprepSrch(3,0,203,7,26,0,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,14,203,0,26,1,0,0);
+nprepSrch(4,0,203,1,26,0,0,0);
+nprepSrch(4,0,203,2,26,0,0,0);
+nprepSrch(4,0,203,3,26,0,0,0);
+nprepSrch(4,22,203,4,26,1,0,0);
+nprepSrch(4,0,203,5,26,0,0,0);
+nprepSrch(4,0,203,6,26,0,0,0);
+nprepSrch(4,0,203,7,26,0,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,14,203,0,26,1,0,0);
+nprepSrch(9,0,203,1,26,0,0,0);
+nprepSrch(9,0,203,2,26,0,0,0);
+nprepSrch(9,0,203,3,26,0,0,0);
+nprepSrch(9,22,203,4,26,1,0,0);
+nprepSrch(9,0,203,5,26,0,0,0);
+nprepSrch(9,0,203,6,26,0,0,0);
+nprepSrch(9,0,203,7,26,0,0,0);
+f5;
+
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,4,26,1,0,0);
+disp z
+f1;
+z
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+f5;
+
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,12,203,0,26,1,0,0);
+nprepSrch(3,12,203,1,26,1,0,0);
+nprepSrch(3,12,203,2,26,1,0,0);
+nprepSrch(3,12,203,3,26,1,0,0);
+nprepSrch(3,12,203,4,26,1,0,0);
+nprepSrch(3,12,203,5,26,1,0,0);
+nprepSrch(3,12,203,6,26,1,0,0);
+nprepSrch(3,12,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,12,203,0,26,1,0,0);
+nprepSrch(4,12,203,1,26,1,0,0);
+nprepSrch(4,12,203,2,26,1,0,0);
+nprepSrch(4,12,203,3,26,1,0,0);
+nprepSrch(4,12,203,4,26,1,0,0);
+nprepSrch(4,12,203,5,26,1,0,0);
+nprepSrch(4,12,203,6,26,1,0,0);
+nprepSrch(4,12,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,12,203,0,26,1,0,0);
+nprepSrch(9,12,203,1,26,1,0,0);
+nprepSrch(9,12,203,2,26,1,0,0);
+nprepSrch(9,12,203,3,26,1,0,0);
+nprepSrch(9,12,203,4,26,1,0,0);
+nprepSrch(9,12,203,5,26,1,0,0);
+nprepSrch(9,12,203,6,26,1,0,0);
+nprepSrch(9,12,203,7,26,1,0,0);
+disp z
+f1;
+z
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,0,203,0,26,0,0,0);
+nprepSrch(3,13,203,1,26,1,0,0);
+nprepSrch(3,0,203,2,26,0,0,0);
+nprepSrch(3,22,203,3,26,1,0,0);
+nprepSrch(3,0,203,4,26,0,0,0);
+nprepSrch(3,13,203,5,26,1,0,0);
+nprepSrch(3,0,203,6,26,0,0,0);
+nprepSrch(3,13,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,0,203,0,26,0,0,0);
+nprepSrch(4,13,203,1,26,1,0,0);
+nprepSrch(4,0,203,2,26,0,0,0);
+nprepSrch(4,22,203,3,26,1,0,0);
+nprepSrch(4,0,203,4,26,0,0,0);
+nprepSrch(4,13,203,5,26,1,0,0);
+nprepSrch(4,0,203,6,26,0,0,0);
+nprepSrch(4,13,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,0,203,0,26,0,0,0);
+nprepSrch(9,13,203,1,26,1,0,0);
+nprepSrch(9,0,203,2,26,0,0,0);
+nprepSrch(9,22,203,3,26,1,0,0);
+nprepSrch(9,0,203,4,26,0,0,0);
+nprepSrch(9,13,203,5,26,1,0,0);
+nprepSrch(9,0,203,6,26,0,0,0);
+nprepSrch(9,13,203,7,26,1,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,3,26,1,0,0);
+disp z
+f1;
+z
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,12,203,0,26,1,0,0);
+nprepSrch(3,12,203,1,26,1,0,0);
+nprepSrch(3,22,203,2,26,1,0,0);
+nprepSrch(3,12,203,3,26,1,0,0);
+nprepSrch(3,12,203,4,26,1,0,0);
+nprepSrch(3,12,203,5,26,1,0,0);
+nprepSrch(3,12,203,6,26,1,0,0);
+nprepSrch(3,12,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,12,203,0,26,1,0,0);
+nprepSrch(4,12,203,1,26,1,0,0);
+nprepSrch(4,22,203,2,26,1,0,0);
+nprepSrch(4,12,203,3,26,1,0,0);
+nprepSrch(4,12,203,4,26,1,0,0);
+nprepSrch(4,12,203,5,26,1,0,0);
+nprepSrch(4,12,203,6,26,1,0,0);
+nprepSrch(4,12,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,12,203,0,26,1,0,0);
+nprepSrch(9,12,203,1,26,1,0,0);
+nprepSrch(9,22,203,2,26,1,0,0);
+nprepSrch(9,12,203,3,26,1,0,0);
+nprepSrch(9,12,203,4,26,1,0,0);
+nprepSrch(9,12,203,5,26,1,0,0);
+nprepSrch(9,12,203,6,26,1,0,0);
+nprepSrch(9,12,203,7,26,1,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,2,26,1,0,0);
+disp z
+f1;
+z
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,0,203,0,26,0,0,0);
+nprepSrch(3,22,203,1,26,1,0,0);
+nprepSrch(3,0,203,2,26,0,0,0);
+nprepSrch(3,0,203,3,26,0,0,0);
+nprepSrch(3,0,203,4,26,0,0,0);
+nprepSrch(3,14,203,5,26,1,0,0);
+nprepSrch(3,0,203,6,26,0,0,0);
+nprepSrch(3,0,203,7,26,0,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,0,203,0,26,0,0,0);
+nprepSrch(4,22,203,1,26,1,0,0);
+nprepSrch(4,0,203,2,26,0,0,0);
+nprepSrch(4,0,203,3,26,0,0,0);
+nprepSrch(4,0,203,4,26,0,0,0);
+nprepSrch(4,14,203,5,26,1,0,0);
+nprepSrch(4,0,203,6,26,0,0,0);
+nprepSrch(4,0,203,7,26,0,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,0,203,0,26,0,0,0);
+nprepSrch(9,22,203,1,26,1,0,0);
+nprepSrch(9,0,203,2,26,0,0,0);
+nprepSrch(9,0,203,3,26,0,0,0);
+nprepSrch(9,0,203,4,26,0,0,0);
+nprepSrch(9,14,203,5,26,1,0,0);
+nprepSrch(9,0,203,6,26,0,0,0);
+nprepSrch(9,0,203,7,26,0,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,1,26,1,0,0);
+disp z
+f1;
+z
+
+f5;
+
+f1;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,0,203,0,26,0,0,0);
+nprepSrch(3,14,203,1,26,1,0,0);
+nprepSrch(3,0,203,2,26,0,0,0);
+nprepSrch(3,14,203,3,26,1,0,0);
+nprepSrch(3,0,203,4,26,0,0,0);
+nprepSrch(3,14,203,5,26,1,0,0);
+nprepSrch(3,0,203,6,26,0,0,0);
+nprepSrch(3,22,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,0,203,0,26,0,0,0);
+nprepSrch(4,14,203,1,26,1,0,0);
+nprepSrch(4,0,203,2,26,0,0,0);
+nprepSrch(4,14,203,3,26,1,0,0);
+nprepSrch(4,0,203,4,26,0,0,0);
+nprepSrch(4,14,203,5,26,1,0,0);
+nprepSrch(4,0,203,6,26,0,0,0);
+nprepSrch(4,22,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,0,203,0,26,0,0,0);
+nprepSrch(9,14,203,1,26,1,0,0);
+nprepSrch(9,0,203,2,26,0,0,0);
+nprepSrch(9,14,203,3,26,1,0,0);
+nprepSrch(9,0,203,4,26,0,0,0);
+nprepSrch(9,14,203,5,26,1,0,0);
+nprepSrch(9,0,203,6,26,0,0,0);
+nprepSrch(9,22,203,7,26,1,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,7,26,1,0,0);
+disp z
+f1;
+z
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,22,203,0,26,1,0,0);
+nprepSrch(3,0,203,1,26,0,0,0);
+nprepSrch(3,0,203,2,26,0,0,0);
+nprepSrch(3,0,203,3,26,0,0,0);
+nprepSrch(3,12,203,4,26,1,0,0);
+nprepSrch(3,0,203,5,26,0,0,0);
+nprepSrch(3,0,203,6,26,0,0,0);
+nprepSrch(3,0,203,7,26,0,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,22,203,0,26,1,0,0);
+nprepSrch(4,0,203,1,26,0,0,0);
+nprepSrch(4,0,203,2,26,0,0,0);
+nprepSrch(4,0,203,3,26,0,0,0);
+nprepSrch(4,12,203,4,26,1,0,0);
+nprepSrch(4,0,203,5,26,0,0,0);
+nprepSrch(4,0,203,6,26,0,0,0);
+nprepSrch(4,0,203,7,26,0,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,22,203,0,26,1,0,0);
+nprepSrch(9,0,203,1,26,0,0,0);
+nprepSrch(9,0,203,2,26,0,0,0);
+nprepSrch(9,0,203,3,26,0,0,0);
+nprepSrch(9,12,203,4,26,1,0,0);
+nprepSrch(9,0,203,5,26,0,0,0);
+nprepSrch(9,0,203,6,26,0,0,0);
+nprepSrch(9,0,203,7,26,0,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,0,26,1,0,0);
+disp z
+f1;
+z
+
+f5;
+
+f1;
+
+f5;
+
+f1;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,0,203,0,26,0,0,0);
+nprepSrch(3,12,203,1,26,1,0,0);
+nprepSrch(3,0,203,2,26,0,0,0);
+nprepSrch(3,12,203,3,26,1,0,0);
+nprepSrch(3,0,203,4,26,0,0,0);
+nprepSrch(3,22,203,5,26,1,0,0);
+nprepSrch(3,0,203,6,26,0,0,0);
+nprepSrch(3,12,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,0,203,0,26,0,0,0);
+nprepSrch(4,12,203,1,26,1,0,0);
+nprepSrch(4,0,203,2,26,0,0,0);
+nprepSrch(4,12,203,3,26,1,0,0);
+nprepSrch(4,0,203,4,26,0,0,0);
+nprepSrch(4,22,203,5,26,1,0,0);
+nprepSrch(4,0,203,6,26,0,0,0);
+nprepSrch(4,12,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,0,203,0,26,0,0,0);
+nprepSrch(9,12,203,1,26,1,0,0);
+nprepSrch(9,0,203,2,26,0,0,0);
+nprepSrch(9,12,203,3,26,1,0,0);
+nprepSrch(9,0,203,4,26,0,0,0);
+nprepSrch(9,22,203,5,26,1,0,0);
+nprepSrch(9,0,203,6,26,0,0,0);
+nprepSrch(9,12,203,7,26,1,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,5,26,1,0,0);
+disp z
+f1;
+z
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,12,203,0,26,1,0,0);
+nprepSrch(3,12,203,1,26,1,0,0);
+nprepSrch(3,12,203,2,26,1,0,0);
+nprepSrch(3,12,203,3,26,1,0,0);
+nprepSrch(3,12,203,4,26,1,0,0);
+nprepSrch(3,12,203,5,26,1,0,0);
+nprepSrch(3,12,203,6,26,1,0,0);
+nprepSrch(3,12,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,12,203,0,26,1,0,0);
+nprepSrch(4,12,203,1,26,1,0,0);
+nprepSrch(4,12,203,2,26,1,0,0);
+nprepSrch(4,12,203,3,26,1,0,0);
+nprepSrch(4,12,203,4,26,1,0,0);
+nprepSrch(4,12,203,5,26,1,0,0);
+nprepSrch(4,12,203,6,26,1,0,0);
+nprepSrch(4,12,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,12,203,0,26,1,0,0);
+nprepSrch(9,12,203,1,26,1,0,0);
+nprepSrch(9,12,203,2,26,1,0,0);
+nprepSrch(9,12,203,3,26,1,0,0);
+nprepSrch(9,12,203,4,26,1,0,0);
+nprepSrch(9,12,203,5,26,1,0,0);
+nprepSrch(9,12,203,6,26,1,0,0);
+nprepSrch(9,12,203,7,26,1,0,0);
+disp z
+f1;
+z
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,12,203,0,26,1,0,0);
+nprepSrch(3,0,203,1,26,0,0,0);
+nprepSrch(3,12,203,2,26,1,0,0);
+nprepSrch(3,0,203,3,26,0,0,0);
+nprepSrch(3,12,203,4,26,1,0,0);
+nprepSrch(3,0,203,5,26,0,0,0);
+nprepSrch(3,12,203,6,26,1,0,0);
+nprepSrch(3,0,203,7,26,0,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,12,203,0,26,1,0,0);
+nprepSrch(4,0,203,1,26,0,0,0);
+nprepSrch(4,12,203,2,26,1,0,0);
+nprepSrch(4,0,203,3,26,0,0,0);
+nprepSrch(4,12,203,4,26,1,0,0);
+nprepSrch(4,0,203,5,26,0,0,0);
+nprepSrch(4,12,203,6,26,1,0,0);
+nprepSrch(4,0,203,7,26,0,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,12,203,0,26,1,0,0);
+nprepSrch(9,0,203,1,26,0,0,0);
+nprepSrch(9,12,203,2,26,1,0,0);
+nprepSrch(9,0,203,3,26,0,0,0);
+nprepSrch(9,12,203,4,26,1,0,0);
+nprepSrch(9,0,203,5,26,0,0,0);
+nprepSrch(9,12,203,6,26,1,0,0);
+nprepSrch(9,0,203,7,26,0,0,0);
+disp z
+f1;
+z
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,14,203,0,26,1,0,0);
+nprepSrch(3,14,203,1,26,1,0,0);
+nprepSrch(3,14,203,2,26,1,0,0);
+nprepSrch(3,14,203,3,26,1,0,0);
+nprepSrch(3,22,203,4,26,1,0,0);
+nprepSrch(3,14,203,5,26,1,0,0);
+nprepSrch(3,14,203,6,26,1,0,0);
+nprepSrch(3,14,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,14,203,0,26,1,0,0);
+nprepSrch(4,14,203,1,26,1,0,0);
+nprepSrch(4,14,203,2,26,1,0,0);
+nprepSrch(4,14,203,3,26,1,0,0);
+nprepSrch(4,22,203,4,26,1,0,0);
+nprepSrch(4,14,203,5,26,1,0,0);
+nprepSrch(4,14,203,6,26,1,0,0);
+nprepSrch(4,14,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,14,203,0,26,1,0,0);
+nprepSrch(9,14,203,1,26,1,0,0);
+nprepSrch(9,14,203,2,26,1,0,0);
+nprepSrch(9,14,203,3,26,1,0,0);
+nprepSrch(9,22,203,4,26,1,0,0);
+nprepSrch(9,14,203,5,26,1,0,0);
+nprepSrch(9,14,203,6,26,1,0,0);
+nprepSrch(9,14,203,7,26,1,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,4,26,1,0,0);
+disp z
+f1;
+z
+
+f5;
+
+f1;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,0,203,0,26,0,0,0);
+nprepSrch(3,11,203,1,26,1,0,0);
+nprepSrch(3,0,203,2,26,0,0,0);
+nprepSrch(3,22,203,3,26,1,0,0);
+nprepSrch(3,0,203,4,26,0,0,0);
+nprepSrch(3,11,203,5,26,1,0,0);
+nprepSrch(3,0,203,6,26,0,0,0);
+nprepSrch(3,11,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,0,203,0,26,0,0,0);
+nprepSrch(4,11,203,1,26,1,0,0);
+nprepSrch(4,0,203,2,26,0,0,0);
+nprepSrch(4,22,203,3,26,1,0,0);
+nprepSrch(4,0,203,4,26,0,0,0);
+nprepSrch(4,11,203,5,26,1,0,0);
+nprepSrch(4,0,203,6,26,0,0,0);
+nprepSrch(4,11,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,0,203,0,26,0,0,0);
+nprepSrch(9,11,203,1,26,1,0,0);
+nprepSrch(9,0,203,2,26,0,0,0);
+nprepSrch(9,22,203,3,26,1,0,0);
+nprepSrch(9,0,203,4,26,0,0,0);
+nprepSrch(9,11,203,5,26,1,0,0);
+nprepSrch(9,0,203,6,26,0,0,0);
+nprepSrch(9,11,203,7,26,1,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,3,26,1,0,0);
+disp z
+f1;
+z
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,11,203,0,26,1,0,0);
+nprepSrch(3,11,203,1,26,1,0,0);
+nprepSrch(3,11,203,2,26,1,0,0);
+nprepSrch(3,11,203,3,26,1,0,0);
+nprepSrch(3,11,203,4,26,1,0,0);
+nprepSrch(3,11,203,5,26,1,0,0);
+nprepSrch(3,11,203,6,26,1,0,0);
+nprepSrch(3,11,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,11,203,0,26,1,0,0);
+nprepSrch(4,11,203,1,26,1,0,0);
+nprepSrch(4,11,203,2,26,1,0,0);
+nprepSrch(4,11,203,3,26,1,0,0);
+nprepSrch(4,11,203,4,26,1,0,0);
+nprepSrch(4,11,203,5,26,1,0,0);
+nprepSrch(4,11,203,6,26,1,0,0);
+nprepSrch(4,11,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,11,203,0,26,1,0,0);
+nprepSrch(9,11,203,1,26,1,0,0);
+nprepSrch(9,11,203,2,26,1,0,0);
+nprepSrch(9,11,203,3,26,1,0,0);
+nprepSrch(9,11,203,4,26,1,0,0);
+nprepSrch(9,11,203,5,26,1,0,0);
+nprepSrch(9,11,203,6,26,1,0,0);
+nprepSrch(9,11,203,7,26,1,0,0);
+disp z
+f1;
+z
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,13,203,0,26,1,0,0);
+nprepSrch(3,13,203,1,26,1,0,0);
+nprepSrch(3,22,203,2,26,1,0,0);
+nprepSrch(3,13,203,3,26,1,0,0);
+nprepSrch(3,13,203,4,26,1,0,0);
+nprepSrch(3,13,203,5,26,1,0,0);
+nprepSrch(3,13,203,6,26,1,0,0);
+nprepSrch(3,13,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,13,203,0,26,1,0,0);
+nprepSrch(4,13,203,1,26,1,0,0);
+nprepSrch(4,22,203,2,26,1,0,0);
+nprepSrch(4,13,203,3,26,1,0,0);
+nprepSrch(4,13,203,4,26,1,0,0);
+nprepSrch(4,13,203,5,26,1,0,0);
+nprepSrch(4,13,203,6,26,1,0,0);
+nprepSrch(4,13,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,13,203,0,26,1,0,0);
+nprepSrch(9,13,203,1,26,1,0,0);
+nprepSrch(9,22,203,2,26,1,0,0);
+nprepSrch(9,13,203,3,26,1,0,0);
+nprepSrch(9,13,203,4,26,1,0,0);
+nprepSrch(9,13,203,5,26,1,0,0);
+nprepSrch(9,13,203,6,26,1,0,0);
+nprepSrch(9,13,203,7,26,1,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,2,26,1,0,0);
+disp z
+f1;
+z
+
+f5;
+
+f1;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,14,203,0,26,1,0,0);
+nprepSrch(3,0,203,1,26,0,0,0);
+nprepSrch(3,14,203,2,26,1,0,0);
+nprepSrch(3,0,203,3,26,0,0,0);
+nprepSrch(3,14,203,4,26,1,0,0);
+nprepSrch(3,0,203,5,26,0,0,0);
+nprepSrch(3,14,203,6,26,1,0,0);
+nprepSrch(3,0,203,7,26,0,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,14,203,0,26,1,0,0);
+nprepSrch(4,0,203,1,26,0,0,0);
+nprepSrch(4,14,203,2,26,1,0,0);
+nprepSrch(4,0,203,3,26,0,0,0);
+nprepSrch(4,14,203,4,26,1,0,0);
+nprepSrch(4,0,203,5,26,0,0,0);
+nprepSrch(4,14,203,6,26,1,0,0);
+nprepSrch(4,0,203,7,26,0,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,14,203,0,26,1,0,0);
+nprepSrch(9,0,203,1,26,0,0,0);
+nprepSrch(9,14,203,2,26,1,0,0);
+nprepSrch(9,0,203,3,26,0,0,0);
+nprepSrch(9,14,203,4,26,1,0,0);
+nprepSrch(9,0,203,5,26,0,0,0);
+nprepSrch(9,14,203,6,26,1,0,0);
+nprepSrch(9,0,203,7,26,0,0,0);
+disp z
+f1;
+z
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+f5;
+
+nprepSrch(1,1,0,0,10,1,0,0);
+nprepSrch(2,2,0,0,10,1,0,0);
+nprepSrch(3,2,0,0,10,1,0,0);
+nprepSrch(3,13,203,0,26,1,0,0);
+nprepSrch(3,22,203,1,26,1,0,0);
+nprepSrch(3,13,203,2,26,1,0,0);
+nprepSrch(3,13,203,3,26,1,0,0);
+nprepSrch(3,13,203,4,26,1,0,0);
+nprepSrch(3,13,203,5,26,1,0,0);
+nprepSrch(3,13,203,6,26,1,0,0);
+nprepSrch(3,13,203,7,26,1,0,0);
+nprepSrch(4,2,0,0,10,1,0,0);
+nprepSrch(4,13,203,0,26,1,0,0);
+nprepSrch(4,22,203,1,26,1,0,0);
+nprepSrch(4,13,203,2,26,1,0,0);
+nprepSrch(4,13,203,3,26,1,0,0);
+nprepSrch(4,13,203,4,26,1,0,0);
+nprepSrch(4,13,203,5,26,1,0,0);
+nprepSrch(4,13,203,6,26,1,0,0);
+nprepSrch(4,13,203,7,26,1,0,0);
+nprepSrch(9,1,0,0,10,1,0,0);
+nprepSrch(9,13,203,0,26,1,0,0);
+nprepSrch(9,22,203,1,26,1,0,0);
+nprepSrch(9,13,203,2,26,1,0,0);
+nprepSrch(9,13,203,3,26,1,0,0);
+nprepSrch(9,13,203,4,26,1,0,0);
+nprepSrch(9,13,203,5,26,1,0,0);
+nprepSrch(9,13,203,6,26,1,0,0);
+nprepSrch(9,13,203,7,26,1,0,0);
+nprepSrch(8,2,0,0,10,1,0,0);
+nprepSrch(8,22,203,1,26,1,0,0);
+disp z
+f1;
+z
+
+f4;
+
+f5;
+
+eall2;
+
+eall2;
+
+eall2;
+
+f5;
+Error in ==> }LKJ:Desktop Folder:TEMPO:videoTempoNet.m
+On line 38  ==>         [numChars, theStream] = RVS4a;
+
+Èclear screen
+Ènow
+
+ans =
+
+   7.3274e+05
+
+Èdatestr(now)
+
+ans =
+
+02-Mar-2006 15:30:13
+
+Èpath
+
+START PATH **********************************
+
+        MATLABPATH
+
+    }LKJ:Desktop Folder:videosync:
+    }LKJ:Desktop Folder:videosync:RVS M:
+    }LKJ:Matlab Folder:Toolbox:matlab:general:
+    }LKJ:Matlab Folder:Toolbox:matlab:ops:
+    }LKJ:Matlab Folder:Toolbox:matlab:lang:
+    }LKJ:Matlab Folder:Toolbox:matlab:elmat:
+    }LKJ:Matlab Folder:Toolbox:matlab:elfun:
+    }LKJ:Matlab Folder:Toolbox:matlab:specfun:
+    }LKJ:Matlab Folder:Toolbox:matlab:matfun:
+    }LKJ:Matlab Folder:Toolbox:matlab:datafun:
+    }LKJ:Matlab Folder:Toolbox:matlab:polyfun:
+    }LKJ:Matlab Folder:Toolbox:matlab:funfun:
+    }LKJ:Matlab Folder:Toolbox:matlab:sparfun:
+    }LKJ:Matlab Folder:Toolbox:matlab:graph2d:
+    }LKJ:Matlab Folder:Toolbox:matlab:graph3d:
+    }LKJ:Matlab Folder:Toolbox:matlab:specgraph:
+    }LKJ:Matlab Folder:Toolbox:matlab:graphics:
+    }LKJ:Matlab Folder:Toolbox:matlab:uitools:
+    }LKJ:Matlab Folder:Toolbox:matlab:strfun:
+    }LKJ:Matlab Folder:Toolbox:matlab:iofun:
+    }LKJ:Matlab Folder:Toolbox:matlab:timefun:
+    }LKJ:Matlab Folder:Toolbox:matlab:datatypes:
+    }LKJ:Matlab Folder:Toolbox:matlab:MacOS:
+    }LKJ:Matlab Folder:Toolbox:matlab:demos:
+    }LKJ:Matlab Folder:Toolbox:matlab:
+    }LKJ:Matlab Folder:Toolbox:images:images:
+    }LKJ:Matlab Folder:Toolbox:images:imdemos:
+    }LKJ:Matlab Folder:Toolbox:local:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychBasic:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychCal:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychCalData:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychClipboard:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychColorimetric:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychColorimetricData:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychDemos:BitPlane:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychDemos:ContrastThresh:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychDemos:PhaseDistort:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychDemos:VisualGamma:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychDemos:ZonePlate:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychDemos:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychFiles:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychGamma:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychHardware:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychImage:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychObsolete:PsychStuffing:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychObsolete:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:Psychometric:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychOneliners:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychProbability:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychQuest:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychRects:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychSignal:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:PsychTests:
+    }LKJ:Matlab Folder:Toolbox:PsychToolbox:
+    }LKJ:Matlab Folder:Toolbox:signal:
+    }LKJ:Matlab Folder:bin:
+    }LKJ:Matlab Folder:extern:
+    }LKJ:Matlab Folder:help:
+    }LKJ:Matlab Folder:NiDaqStuff:
+    }LKJ:Matlab Folder:
+    }LKJ:Desktop Folder:videosync:Daniel Shima files:
+    }LKJ:Desktop Folder:videosync:Daniel Shima files:ReceiverDataTest files:
+    }LKJ:Desktop Folder:videosync:Daniel Shima files:RVS M-files:
+    }LKJ:Desktop Folder:TEMPO:
+    }LKJ:Desktop Folder:TEMPO:#old:
+    }LKJ:Desktop Folder:TEMPO:wood:
+
+
+È
+
+
+START COMMAND HISTORY **********************************
+
+        end;
+        % show movie
+        for i=[1:100 100:-1:1] % forwards and backwards
+            SCREEN('CopyWindow',movie(i),window,rect,rect+[0 500 0 500]);
+            SCREEN(window,'WaitBlanking');
+        end;
+        SCREEN('CloseAll');
+
+% make movie
+        window=SCREEN(0,'OpenWindow',0);
+        rect=[0 0 200 200];
+        movie=1:100;
+        for i=1:100
+            movie(i)=SCREEN(window,'OpenOffscreenWindow',0,rect);
+            SCREEN(movie(i),'FillOval',255,[0 0 2 2]*(i-1));
+        end;
+        % show movie
+        for i=[1:100 100:-1:1] % forwards and backwards
+            SCREEN('CopyWindow',movie(i),window,rect,rect+[0 500 0 500]);
+            SCREEN(window,'WaitBlanking');
+        end;
+        SCREEN('CloseAll');
+
+% make movie
+        window=SCREEN(0,'OpenWindow',0);
+        rect=[0 0 200 200];
+        movie=1:100;
+        for i=1:100
+            movie(i)=SCREEN(window,'OpenOffscreenWindow',0,rect);
+            SCREEN(movie(i),'FillOval',255,[0 0 2 2]*(i-1));
+        end;
+        % show movie
+        for i=[1:100 100:-1:1] % forwards and backwards
+            SCREEN('CopyWindow',movie(i),window,rect,rect+[0 500 0 500]);
+            SCREEN(window,'WaitBlanking');
+        end;
+        SCREEN('CloseAll');
+
+% make movie
+        w
+Desktop
+Desktop DB
+
+ryuTest
+who
+who xx
+size(xx)
+xx
+xx = [];
+ryutest
+who
+xx
+ryutest
+screen('closeall')
+ryu2
+screen('closeall')
+xx
+hist(xx)
+max(xx)
+min(0)
+exit
+%----- Starting MATLAB at 12:32 PM 7/7/04 -----%
+initvideosync
+ryu2
+ryu2
+ryu2
+ryu3
+exit
+%----- Starting MATLAB at 1:35 PM 7/13/04 -----%
+initvideosync
+ryutest
+ca
+exit
+%----- Starting MATLAB at 1:59 PM 7/13/04 -----%
+initvideosync
+ryutet
+ryutest
+ca
+exirt
+exit
+%----- Starting MATLAB at 11:22 AM 7/14/04 -----%
+DOTS_CLUT=zeros(256,3);
+for i = 100:255,
+    lvalue = 255/(255-100)*(i-100);
+    DOTS_CLUT(i,:) = lvalue*[1 1 1];
+end
+DOTS_CLUT
+DOTS_CLUT=zeros(256,3);
+for i = 101:256,
+    lvalue = ceil(255/(255-100)*(i-100));
+    DOTS_CLUT(i,:) = lvalue*[1 1 1];
+end
+DOTS_CLUT
+DOTS_CLUT=zeros(256,3);
+for i = 101:256,
+    lvalue = ceil(255/(256-101)*(i-101));
+    DOTS_CLUT(i,:) = lvalue*[1 1 1];
+end
+DOTS_CLUT
+DOTS_CLUT=zeros(256,3);
+for i = 101:256,
+    lvalue = floor(255/(256-101)*(i-101));
+    DOTS_CLUT(i,:) = lvalue*[1 1 1];
+end
+DOTS_CLUT
+clc
+clear all
+clc
+initvideosync
+ryutest
+clc
+help screen
+        window=SCREEN(0,'OpenWindow',0);
+        rect=[0 0 200 200];
+        movie=1:100;
+        for i=1:100
+            movie(i)=SCREEN(window,'OpenOffscreenWindow',0,rect);
+            SCREEN(movie(i),'FillOval',255,[0 0 2 2]*(i-1));
+        end;
+        % show movie
+        for i=[1:100 100:-1:1] % forwards and backwards
+            SCREEN('CopyWindow',movie(i),window,rect,rect);
+            SCREEN(window,'WaitBlanking');
+        end;
+        SCREEN('CloseAll');
+        window=SCREEN(0,'OpenWindow',0);
+        rect=[0 0 200 200];
+        movie=1:100;
+        for i=1:100
+            movie(i)=SCREEN(window,'OpenOffscreenWindow',0,rect);
+            SCREEN(movie(i),'FillOval',255,[0 0 2 2]*(i-1));
+        end;
+        % show movie
+        for i=[1:100 100:-1:1] % forwards and backwards
+            SCREEN('CopyWindow',movie(i),window,rect,[0 0 200 200] + [0 400 0 400]);
+            SCREEN(window,'WaitBlanking');
+        end;
+        SCREEN('CloseAll');
+        window=SCREEN(0,'OpenWindow',0);
+        rect=[0 0 200 200];
+        movie=1:100;
+        for i=1:100
+            movie(i)=SCREEN(window,'OpenOffscreenWindow',0,rect);
+            SCREEN(movie(i),'FillOval',255,[0 0 100 100] + [0 500 0 500]);
+        end;
+        % show movie
+        for i=[1:100 100:-1:1] % forwards and backwards
+            SCREEN('CopyWindow',movie(i),window,rect,[0 0 200 200] + [0 400 0 400]);
+            SCREEN(window,'WaitBlanking');
+        end;
+        SCREEN('CloseAll');
+        window=SCREEN(0,'OpenWindow',0);
+        rect=[0 0 200 200];
+        movie=1:100;
+        for i=1:100
+            movie(i)=SCREEN(window,'OpenOffscreenWindow',0,rect);
+            SCREEN(movie(i),'FillOval',255,[0 0 100 100] + [0 500 0 500]);
+        end;
+        % show movie
+        for i=[1:100 100:-1:1] % forwards and backwards
+            SCREEN('CopyWindow',movie(i),window,rect,[0 0 200 200] + [0 400 0 400]);
+            SCREEN(window,'WaitBlanking');
+        end;
+        SCREEN('CloseAll');
+        window=SCREEN(0,'OpenWindow',0);
+        rect=[0 0 800 600];
+        movie=1:1;
+        for i=1:1
+            movie(i)=SCREEN(window,'OpenOffscreenWindow',0,rect);
+            SCREEN(movie(i),'FillOval',255,[0 0 100 100] + [0 500 0 500]);
+        end;
+        % show movie
+        for i=[1:1] % forwards and backwards
+            SCREEN('CopyWindow',movie(i),window,[0 0 100 100] + [0 500 0 500],[0 0 100 100] + [0 500 0 500]);
+            SCREEN(window,'WaitBlanking');
+        end;
+
+        getchar;
+        SCREEN('CloseAll');
+        window=SCREEN(0,'OpenWindow',0);
+        rect=[0 0 800 600];
+        movie=1:1;
+        for i=1:1
+            movie(i)=SCREEN(window,'OpenOffscreenWindow',0,rect);
+            SCREEN(movie(i),'FillRect',255,[0 0 100 100] + [0 500 0 500]);
+        end;
+        % show movie
+        for i=[1:1] % forwards and backwards
+            SCREEN('CopyWindow',movie(i),window,[0 0 100 100] + [0 500 0 500],[0 0 100 100] + [0 500 0 500]);
+            SCREEN(window,'WaitBlanking');
+        end;
+
+        getchar;
+        SCREEN('CloseAll');
+        window=SCREEN(0,'OpenWindow',0);
+        rect=[0 0 800 600];
+        movie=1:1;
+        for i=1:1
+            movie(i)=SCREEN(window,'OpenOffscreenWindow',0,rect);
+            SCREEN(movie(i),'FillRect',255,[0 0 100 100] + [0 500 0 500]);
+        end;
+        % show movie
+        for i=[1:1] % forwards and backwards
+            SCREEN('CopyWindow',movie(i),window,[0 0 100 100] + [0 500 0 500],[0 0 100 100] + [0 500 0 500]);
+            SCREEN(window,'WaitBlanking');
+        end;
+
+        getchar;
+        SCREEN('CloseAll');
+help screen
+        window=SCREEN(0,'OpenWindow',[0 0 800 600],0);
+        rect=[0 0 800 600];
+        movie=1:1;
+        for i=1:1
+            movie(i)=SCREEN(window,'OpenOffscreenWindow',0,rect);
+            SCREEN(movie(i),'FillRect',255,[0 0 100 100] + [0 500 0 500]);
+        end;
+        % show movie
+        for i=[1:1] % forwards and backwards
+            SCREEN('CopyWindow',movie(i),window,[0 0 100 100] + [0 500 0 500],[0 0 100 100] + [0 500 0 500]);
+            SCREEN(window,'WaitBlanking');
+        end;
+
+        getchar;
+        SCREEN('CloseAll');
+        window=SCREEN(0,'OpenWindow',0,[0 0 800 600]);
+        rect=[0 0 800 600];
+        movie=1:1;
+        for i=1:1
+            movie(i)=SCREEN(window,'OpenOffscreenWindow',0,rect);
+            SCREEN(movie(i),'FillRect',255,[0 0 100 100] + [0 500 0 500]);
+        end;
+        % show movie
+        for i=[1:1] % forwards and backwards
+            SCREEN('CopyWindow',movie(i),window,[0 0 100 100] + [0 500 0 500],[0 0 100 100] + [0 500 0 500]);
+            SCREEN(window,'WaitBlanking');
+        end;
+
+        getchar;
+        SCREEN('CloseAll');
+exit
+%----- Starting MATLAB at 12:35 PM 7/14/04 -----%
+initvidoesync
+initvideosync
+ryutest
+\
+videoclient
+ca
+edit videoClient
+imagesc(DOTS_CLUT)
+who
+exit
+%----- Starting MATLAB at 12:49 PM 7/14/04 -----%
+initvideosync
+DOTS_CUT
+DOTS_CLUT
+videoclient
+videoclientscree\
+screen('closeall')
+videoclientscree\
+videoclient
+ca
+edit initscreen4
+exit
+%----- Starting MATLAB at 1:33 PM 7/14/04 -----%
+initvideosycn
+initvideosync
+edit vidoeclient
+edit videoclient
+[CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 0,[],8);
+[CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 1,[],8);
+[CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 100,[],8);
+[CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+exit
+%----- Starting MATLAB at 1:38 PM 7/14/04 -----%
+initvideosync
+videoclient
+c
+ca
+c
+ca
+videoclient
+c
+ca
+videoclient
+ca
+screen('FillRect?')
+imagesc(DOTS_CLUT)
+close
+videoclient
+ca
+videoclient
+ca
+ca
+screen('OpenOffscreen?)
+screen('OpenOffscreen?')
+screen('OpenOffscreenwindow?')
+c
+ca
+c
+ca
+colormap
+imagesc(colormap)]
+imagesc(colormap)
+close
+colormap(DOTS_CLUT)
+size(DOTS_CLUT)
+imagesc(DOTS_CLUT)
+close
+ca
+imagesc(DOTS_CLUT)
+plot(DOTS_CLUT(:,1))
+close
+ca
+ca
+ca
+ca
+videoclient
+ca
+100+1+(155)*floor(random(11))/10
+100+1+(155)*floor(rand(11))/10
+100+1+(155)*floor(11*rand)/10
+100+1+(155)*floor(11*rand)/10
+100+1+(155)*floor(11*rand)/10
+100+1+(155)*floor(11*rand)/10
+100+1+(155)*floor(11*rand)/10
+100+1+(155)*floor(11*rand)/10
+100+1+(155)*floor(11*rand)/10
+100+1+(155)*floor(11*rand)/10
+100+1+(155)*floor(11*rand)/10
+100+1+(155)*floor(11*rand)/10
+100+1+(155)*floor(11*rand)/10
+xx = 100+1+(155)*floor(11*rand(1000,1))/10
+hist(xx)
+clc
+xx = 100+1+(155)*floor(11*rand(1000,1))/10
+hist(xx)
+hist(xx)
+min(xx)
+max(xx)
+xx = 100+1+(155)*round(11*rand(1000,1))/10
+xx = 100+1+(155)*round(11*rand(1000,1))/10
+hist(xx)
+hist(xx)
+xx = 100+1+(155)*round(11*rand(1000,1))/10
+hist(xx)
+xx = 100+1+(155)*round(11*rand(10000,1))/10
+hist(xx)
+xx = 100+1+(155)*floor(11*rand(10000,1))/10
+hist(xx)
+xx = 100+1+(155)*ceil(11*rand(10000,1))/10
+hist(xx)
+xx = 100+1+(155)*ceil(11*rand(10000,1))/10
+hist(xx)
+hist(xx,100)
+xx = 100+1+(155)*floor(11*rand(10000,1))/10
+hist(xx,100)
+close
+videoclient
+xa
+ca
+ca
+ca
+screen('putimage?')
+c
+ca
+c
+ca
+ca
+exit
+%----- Starting MATLAB at 11:12 AM 7/15/04 -----%
+initvideosync
+videoclient
+c
+ca
+help screen
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+
+    screen(CUR_WINDOW, 'putimage', [1:256], [0 50 0 50]);
+    getchar;
+    screen('closeall');
+screen('putimage?')
+screen('copywindow')
+screen('copywindow?')
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+    a = screen(CUR_WINDDW, 'openoffscreenwindow',0,[0 0 800 600]);
+    screen(a, 'putimage', [1:256], [0 0 50 50]);
+    screen('copywindow',a,CUR_WINDOW,[0 0 50 50],[0 0 50 50]);
+
+    getchar;
+    screen('closeall');
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+    a = screen(CUR_WINDOW, 'openoffscreenwindow',0,[0 0 800 600]);
+    screen(a, 'putimage', [1:256], [0 0 50 50]);
+    screen('copywindow',a,CUR_WINDOW,[0 0 50 50],[0 0 50 50]);
+
+    getchar;
+    screen('closeall');
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+    a = screen(CUR_WINDOW, 'openoffscreenwindow',0,[0 0 800 600]);
+    screen(a, 'putimage', [1:256], [0 0 50 200]);
+    screen('copywindow',a,CUR_WINDOW,[0 0 50 200],[0 0 50 200]);
+
+    getchar;
+    screen('closeall');
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+    a = screen(CUR_WINDOW, 'openoffscreenwindow',0,[0 0 800 600]);
+    screen(a, 'putimage', [1:256], [0 0 200 50]);
+    screen('copywindow',a,CUR_WINDOW,[0 0 200 50],[0 0 200 50]);
+
+    getchar;
+    screen('closeall');
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+    a = screen(CUR_WINDOW, 'openoffscreenwindow',0,[0 0 800 600]);
+    screen(a, 'putimage', [1:255], [0 0 200 50]);
+    screen('copywindow',a,CUR_WINDOW,[0 0 200 50],[0 0 200 50]);
+
+    getchar;
+    screen('closeall');
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+    a = screen(CUR_WINDOW, 'openoffscreenwindow',0,[0 0 800 600]);
+    screen(a, 'putimage', [1:255], [0 0 200 50]);
+    screen('copywindow',a,CUR_WINDOW,[0 0 200 50],[0 0 200 50]);
+
+    getchar;
+    screen('closeall');
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+    a = screen(CUR_WINDOW, 'openoffscreenwindow',0,[0 0 800 600]);
+    screen(a, 'putimage', [1:10], [0 0 200 50]);
+    screen('copywindow',a,CUR_WINDOW,[0 0 200 50],[0 0 200 50]);
+
+    getchar;
+    screen('closeall');
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+    a = screen(CUR_WINDOW, 'openoffscreenwindow',0,[0 0 800 600]);
+    screen(a, 'putimage', [0], [0 0 200 50]);
+    screen('copywindow',a,CUR_WINDOW,[0 0 200 50],[0 0 200 50]);
+
+    getchar;
+    screen('closeall');
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+    a = screen(CUR_WINDOW, 'openoffscreenwindow',0,[0 0 800 600]);
+    screen(a, 'putimage', [0 1 2 0 1 2 0 1 2], [0 0 200 50]);
+    screen('copywindow',a,CUR_WINDOW,[0 0 200 50],[0 0 200 50]);
+
+    getchar;
+    screen('closeall');
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+    a = screen(CUR_WINDOW, 'openoffscreenwindow',0,[0 0 800 600]);
+    screen(a, 'putimage', [99 100 101], [0 0 200 50]);
+    screen('copywindow',a,CUR_WINDOW,[0 0 200 50],[0 0 200 50]);
+
+    getchar;
+    screen('closeall');
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+    a = screen(CUR_WINDOW, 'openoffscreenwindow',0,[0 0 800 600]);
+    screen(a, 'putimage', [101:255], [0 0 200 50]);
+    screen('copywindow',a,CUR_WINDOW,[0 0 200 50],[0 0 200 50]);
+
+    getchar;
+    screen('closeall');
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+    a = screen(CUR_WINDOW, 'openoffscreenwindow',0,[0 0 800 600]);
+    screen(a, 'putimage', [101:10:255], [0 0 200 50]);
+    screen('copywindow',a,CUR_WINDOW,[0 0 200 50],[0 0 200 50]);
+
+    getchar;
+    screen('closeall');
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+    a = screen(CUR_WINDOW, 'openoffscreenwindow',0,[0 0 800 600]);
+    screen(a, 'putimage', [101:10:255], [0 0 200 50]);
+    screen('copywindow',a,CUR_WINDOW,[0 0 200 50],[0 0 200 50]);
+
+    getchar;
+    screen('closeall');
+    initscreen4;
+    [CUR_WINDOW, SCREEN_RECT] = SCREEN(0, 'OpenWindow', 255,[],8);
+    SCREEN(CUR_WINDOW, 'SetClut', DOTS_CLUT);
+
+    a = screen(CUR_WINDOW, 'openoffscreenwindow',0,[0 0 800 600]);
+    screen(a, 'putimage', [1 0 2 101:10:255], [0 0 200 50]);
+    screen('copywindow',a,CUR_WINDOW,[0 0 200 50],[0 0 200 50]);
+
+    getchar;
+    screen('closeall');
+exit
+%----- Starting MATLAB at 1:19 PM 7/15/04 -----%
+initvideosync
+c
+ca
+ca
+ca
+ca
+ca
+]help
+screen('openoffscreenwindow?')
+ca
+c
+ca
+ca
+ca
+ca
+exit
+%----- Starting MATLAB at 8:55 AM 7/16/04 -----%
+initvideosync
+videoclient
+ca
+exit
+%----- Starting MATLAB at 9:12 AM 7/16/04 -----%
+%----- Starting MATLAB at 9:41 AM 7/16/04 -----%
+%----- Starting MATLAB at 9:42 AM 7/16/04 -----%
+%----- Starting MATLAB at 10:30 AM 7/19/04 -----%
+%----- Starting MATLAB at 7:45 AM 8/3/04 -----%
+initvideosync
+ryu2
+ca
+videoclient
+c
+ca
+videoclient
+ca
+videoclient
+ca
+videoclient
+ca
+exit
+%----- Starting MATLAB at 8:09 AM 8/4/04 -----%
+initvideosync
+ryu2
+ca
+%----- Starting MATLAB at 9:24 AM 8/5/04 -----%
+initvideosync
+ideoclient
+videoclient
+c
+ca
+ryu2
+ca
+videoclient
+cc
+ca
+videoclient
+ca
+ecxit
+exit
+%----- Starting MATLAB at 9:24 AM 8/7/04 -----%
+initvideosync
+ryu2
+ca
+%----- Starting MATLAB at 2:11 PM 8/9/04 -----%
+initvideosync
+ryu2
+ca
+videoclient
+ca
+videoclient
+ca
+%----- Starting MATLAB at 9:10 AM 8/10/04 -----%
+initvideosync
+ryutest
+videoclient
+c
+ca
+ryu2
+ca
+exit
+%----- Starting MATLAB at 8:42 AM 8/11/04 -----%
+initvideosync
+videoclient
+ca
+initvideosync
+ryu2
+ca
+videoclient
+ca
+ryu2
+ca
+%----- Starting MATLAB at 8:19 AM 8/13/04 -----%
+initvideosync
+ryu2
+ca
+exit
+%----- Starting MATLAB at 9:37 AM 8/19/04 -----%
+initvideosync
+ryu2
+ca
+%----- Starting MATLAB at 9:16 AM 8/20/04 -----%
+initvideosync
+ryu2
+ca
+%----- Starting MATLAB at 8:11 AM 8/21/04 -----%
+initvideosync
+ryu2
+ca
+%----- Starting MATLAB at 9:55 AM 8/22/04 -----%
+videoclient
+ca
+initvideosync
+videoclient\
+videoclient
+ca
+exit
+%----- Starting MATLAB at 8:26 AM 8/23/04 -----%
+initvideosync
+videoclient
+ca
+ryu2
+ca
+videoclient
+ca
+exit
+%----- Starting MATLAB at 8:01 AM 8/24/04 -----%
+initvideosync
+videoclient
+ca
+%----- Starting MATLAB at 8:27 AM 8/25/04 -----%
+initvideosync
+ryu2
+ryu2
+ryu2
+ca
+%----- Starting MATLAB at 10:39 AM 8/26/04 -----%
+initvideosync
+ryu2
+ca
+%----- Starting MATLAB at 8:10 AM 8/27/04 -----%
+initvideosync
+ryu2
+ca
+exit
+%----- Starting MATLAB at 8:37 AM 8/28/04 -----%
+initvideosync
+ryu2
+ca
+%----- Starting MATLAB at 11:40 AM 8/28/04 -----%
+ryutest
+initvideosync
+ryutest
+exit
+%----- Starting MATLAB at 12:04 PM 8/28/04 -----%
+initvideosync
+videoclient
+ca
+exit
+%----- Starting MATLAB at 8:57 AM 8/29/04 -----%
+initvideosync
+videoclient
+ca
+exit
+%----- Starting MATLAB at 8:14 AM 8/30/04 -----%
+initvideosync
+videoclient
+ca
+%----- Starting MATLAB at 9:42 AM 8/31/04 -----%
+initvideosync
+ryu2
+ca
+%----- Starting MATLAB at 7:41 AM 9/1/04 -----%
+initvideosync
+videoclient
+ca
+%----- Starting MATLAB at 8:05 AM 9/3/04 -----%
+initvideosync
+videoclient
+ca
+exit
+%----- Starting MATLAB at 12:45 PM 9/6/04 -----%
+initvideosync
+videoclient
+ca
+exit
+%----- Starting MATLAB at 8:10 AM 9/8/04 -----%
+initvideosync
+videoclient
+ca
+%----- Starting MATLAB at 9:23 AM 9/10/04 -----%
+initvideosync
+videoclient
+ca
+eexit
+exit
+%----- Starting MATLAB at 7:56 AM 9/11/04 -----%
+initvideosync
+videoclient
+ca
+%----- Starting MATLAB at 9:31 AM 9/12/04 -----%
+initvideosync
+videoclient
+ca
+exit
+%----- Starting MATLAB at 7:23 AM 9/13/04 -----%
+initvideosync
+videoclient
+ca
+videoclient
+ca
+%----- Starting MATLAB at 9:48 AM 9/14/04 -----%
+initvideosync
+videoclient
+ca
+%----- Starting MATLAB at 7:05 AM 9/17/04 -----%
+initvideosync
+videoclient
+ca
+%----- Starting MATLAB at 9:13 AM 9/19/04 -----%
+initvideosync
+videoclient
+ca
+exit
+%----- Starting MATLAB at 9:19 AM 9/20/04 -----%
+initvideosync
+videoclient
+ca
+%----- Starting MATLAB at 11:11 AM 9/21/04 -----%
+initvideosync
+videoclient
+ca
+initvideosync
+videoclient
+ca
+videoclient
+ca
+%----- Starting MATLAB at 8:30 AM 9/22/04 -----%
+initvideosync
+videoclient
+ca
+%----- Starting MATLAB at 8:10 AM 9/25/04 -----%
+initvideosync
+videoclient
+ca
+%----- Starting MATLAB at 7:37 AM 9/29/04 -----%
+initvideosync
+videoclient
+ca
+exit
+%----- Starting MATLAB at 1:22 PM 10/1/04 -----%
+initvideosync
+ryu2
+ca
+initvideosync
+videoclient
+ca
+videoclient
+ca
+%----- Starting MATLAB at 4:04 PM 10/4/04 -----%
+initvideosync
+testfunction
+ca
+test
+testscr
+ca
+initvideosync
+ryu2
+ca
+videoclient
+ca
+videoclient
+ca
+ryu2
+ryu2ca
+ryu2ca
+ryu2ca
+ca
+videoclient
+ca
+test
+checksender
+getsendstatus
+%----- Starting MATLAB at 10:12 AM 10/8/04 -----%
+initvideosync
+videoclient
+ca
+%----- Starting MATLAB at 12:58 PM 10/11/04 -----%
+%----- Starting MATLAB at 10:21 AM 10/12/04 -----%
+initvideosync
+videoclient
+ca
+videoclient
+ca
+initvideosync
+videoclient
+ca
+ca
+initvideosync
+videoclient
+ca
+%----- Starting MATLAB at 4:01 PM 10/13/04 -----%
+initvideosync
+videoclient
+ca
+%----- Starting MATLAB at 11:56 AM 10/19/04 -----%
+initvideosync
+videoclient
+ca
+%----- Starting MATLAB at 3:40 PM 11/1/04 -----%
+initvideosync
+ryutest
+edit ryutest
+which RVS3C
+clear all
+edit ryutest
+which tempoparse2
+exit
+%----- Starting MATLAB at 1:47 PM 11/2/04 -----%
+InitVideotest
+ReceiveDataTest(0,10)
+ReceiveDataTest(1,10)
+ReceiveDataTest(2,10)
+ReceiveDataTest(3,10)
+ReceiveDataTest(4,10)
+ReceiveDataTest(5,10)
+ReceiveDataTest(0,10)
+ReceiveDataTest(0,10)
+ReceiveDataTest(1,10)
+ReceiveDataTest(2,10)
+ReceiveDataTest(0,5)
+ReceiveDataTest(1,5)
+ReceiveDataTest(2,5)
+ReceiveDataTest(0,5)
+ReceiveDataTest(1,5)
+ReceiveDataTest(2,5)
+ReceiveDataTest(3,5)
+ReceiveDataTest(4,5)
+ReceiveDataTest(5,5)
+ReceiveDataTest(0,5)
+ReceiveDataTest(0,5)
+ReceiveDataTest(1,5)
+ReceiveDataTest(2,5)
+ReceiveDataTest(2,5)
+ReceiveDataTest(3,5)
+ReceiveDataTest(4,5)
+ReceiveDataTest(5,5)
+ReceiveDataTest(0,5)
+ReceiveDataTest(0,5)
+ReceiveDataTest(0,5)
+ReceiveDataTest(0,5)
+ReceiveDataTest(0,5)
+ReceiveDataTest(0,15)
+ReceiveDataTest(0,15)
+ReceiveDataTest(0,15)
+ReceiveDataTest(0,15)
+ReceiveDataTest(0,15)
+ReceiveDataTest(1,15)
+ReceiveDataTest(4,15)
+ReceiveDataTest(4,15)
+ReceiveDataTest(4,15)
+ReceiveDataTest(3,15)
+clear all
+edit InitVideotest
+InitVideotest
+ReceiveDataTest(0,15)
+ReceiveDataTest(1,15)
+ReceiveDataTest(2,15)
+ReceiveDataTest(3,15)
+ReceiveDataTest(4,15)
+ReceiveDataTest(5,15)
+edit ReceiveDataTest
+edit ReceiveDataTest
+edit ReceiveDataTest2
+clear all
+InitVideotest
+ReceiveDataTest(0,15)
+ReceiveDataTest2(0,15)
+111111111111011111111111111111111111101111111111
+q = num2str(111111111111011111111111111111111111101111111111)
+whos q
+whos q
+edit ReceiveDataTest2
+ReceiveDataTest2(0,15)
+ReceiveDataTest2(0,15)
+ReceiveDataTest2(0,15)
+ReceiveDataTest2(0,15)
+ReceiveDataTest2(0,15)
+ReceiveDataTest2(0,15)
+ReceiveDataTest2(0,60)
+clc
+ReceiveDataTest2(0,3)
+ReceiveDataTest2(0,60)
+edit ReceiveDataTest2
+edit ReceiveDataTest2
+clc
+clear all
+InitVideotest
+ReceiveDataTest2(0,60)
+whos
+edit ReceiveDataTest2
+clear all
+InitVideotest
+ReceiveDataTest2(0,1)
+edit ReceiveDataTest2
+ReceiveDataTest2(0,1)
+exit
+%----- Starting MATLAB at 12:33 PM 11/9/04 -----%
+path
+clc
+which initvideosync
+initvideosync
+RVS3
+videoclient
+clear all
+videoclient
+clear all
+initvideosync
+videoclient
+clear screen
+which videoclient
+which endNdxs
+which videoclient
+videoclient
+clear screen
+videoclient
+clear screen
+whos
+clear all
+initvideosync
+theStream
+clear screen
+which rvc3c
+which rvs3c
+exit
+%----- Starting MATLAB at 1:03 PM 11/9/04 -----%
+exit
+%----- Starting MATLAB at 1:04 PM 11/9/04 -----%
+initvideosync
+videoclient
+clear all
+exit
+%----- Starting MATLAB at 4:29 PM 11/9/04 -----%
+clear screen
+InitVideoSync
+clear all
+InitVideoSync
+dir
+videoClient_DanTest0
+clear all
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear screen
+whos
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear screen
+clear all
+InitVideoSync
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear all
+clear all
+clear all
+InitVideoSync
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear screen
+dec2bin(3)
+dec2bin(15)
+help bitand
+bitand(15,3)
+bitand(15,4)
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear screen
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear screen
+exitexit
+exit
+%----- Starting MATLAB at 2:56 PM 11/10/04 -----%
+dir
+ReceivedataTest1(1,100)
+InitVideoTest
+ReceivedataTest1(1,100)
+ReceivedataTest1(0,100)
+ReceivedataTest1(2,100)
+ReceivedataTest1(3,100)
+ReceivedataTest1(4,100)
+ReceivedataTest1(5,100)
+clear all
+InitVideoSync
+videoClient
+clear screen
+clear all
+InitVideoSync
+videoClient_Dantest0
+clear screen
+clear all
+InitVideoSync
+videoClient_Dantest0
+clear screen
+whos commands
+commands
+whos commands
+clear all
+InitVideoSync
+videoClient_Dantest0
+clear all
+InitVideoSync
+videoClient_Dantest0
+clear screen
+exit
+%----- Starting MATLAB at 3:16 PM 11/16/04 -----%
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear screen
+dir
+ReceiveDataTest3
+ReceiveDataTest3(100)
+ReceiveDataTest3(100)
+ReceiveDataTest3(100)
+ReceiveDataTest3(100)
+clear all
+InitVideoSync
+ReceiveDataTest3(100)
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear screen
+which RVS3
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear screen
+clear all
+InitVideoSync
+videoClient_DanTest0
+ReceiveDataTest3(100)
+clear
+clear all
+clear all
+InitVideoSync
+ReceiveDataTest3(100)
+ReceiveDataTest3(100)
+ReceiveDataTest3(100)
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear all
+InitVideoSync
+videoClient_DanTest0
+ReceiveDataTest3(100)
+clear all
+clear all
+InitVideoSync
+ReceiveDataTest3(100)
+videoClient_DanTest0
+clear all
+InitVideoSync
+ReceiveDataTest3(100)
+ReceiveDataTest3(100)
+ReceiveDataTest3(100)
+ReceiveDataTest3(100)
+ReceiveDataTest3(100)
+ReceiveDataTest3(100)
+ReceiveDataTest3(100)
+whos
+ReceiveDataTest3(100)
+ReceiveDataTest3(100)
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear screen
+char([101    97   108   108    50    10   122    32    61    32    48    59])
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear screen
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear screen
+whos
+double(theStream)
+find(double(theStreaM) > 63)
+find(double(theStream) > 63)
+clear screen
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear all
+InitVideoSync
+videoClient_DanTest0
+clear scrren
+clear screen
+dec2bin(double('n'))
+exit
+%----- Starting MATLAB at 10:54 AM 11/17/04 -----%
+initvideosync
+videoclient_dantest0
+clear screen
+%----- Starting MATLAB at 5:16 PM 11/22/04 -----%
+%----- Starting MATLAB at 5:25 PM 11/23/04 -----%
+initvideosync
+ruytest
+ryutest
+ryutest
+ryutest
+initvideosync
+videoclient2
+ca
+%----- Starting MATLAB at 5:47 PM 11/23/04 -----%
+initvideosync
+videoclient2
+ca
+videoclient
+ca
+videoclient2
+ca
+%----- Starting MATLAB at 2:55 PM 11/24/04 -----%
+initvideosync
+videoclient2
+ca
+videoclient_dantest_0
+videoclient_dantest0
+ca
+%----- Starting MATLAB at 3:13 PM 11/24/04 -----%
+initvideosync
+initvideosync
+videoclient2
+videoclient_dantest0
+videoclient_dantest0
+clear all
+%----- Starting MATLAB at 9:53 AM 11/26/04 -----%
+initvideosync
+videoclient2
+CA
+videoclient2
+CA
+videoclient2
+videoclient2CA
+CA
+INITVIDEOSYNC
+videoClient_DanTest0
+CA
+%----- Starting MATLAB at 2:37 PM 12/1/04 -----%
+initvideosync
+ryutest
+ls
+who
+clc
+who
+i
+theStream
+clc
+edit TempoParse2
+edit RVS4a
+initvideosync
+ryu3
+c
+screen('closeall')
+where ryu3.m
+help where
+help lookfor
+help what
+what ryu3.m
+videoclient_MinTest0
+ryu3_testMin
+ryu3_testMin
+exit
+%----- Starting MATLAB at 10:43 AM 12/4/04 -----%
+initvideosync
+videoclient2
+clear all
+videoClient_DanTest0
+ca
+initvideosync
+videoClient_DanTest0
+ca
+%----- Starting MATLAB at 3:44 PM 12/6/04 -----%
+initvideosync
+videoclient2
+ca
+initvideosync
+ryu3
+ca
+ryu4
+ryu4
+ca
+videoclient2
+ca
+videoclient2
+ca
+%----- Starting MATLAB at 3:36 PM 12/7/04 -----%
+exit
+%----- Starting MATLAB at 5:01 PM 12/7/04 -----%
+initvideosync
+videoClient_DanTest20041207
+clear screen
+exit
+%----- Starting MATLAB at 5:34 PM 12/7/04 -----%
+path
+initvideosync
+videoClient_DanTest20041207
+clear screen
+clear all
+initvideosync
+videoClient_DanTest20041207
+clear screen
+clear all
+initvideosync
+videoClient_DanTest20041207
+clear screen
+clear all
+initvideosync
+videoClient_DanTest20041207
+clear screen
+clear all
+initvideosync
+videoClient_DanTest20041207
+clear all
+initvideosync
+videoClient_DanTest20041207
+clear all
+exit
+%----- Starting MATLAB at 6:13 PM 12/7/04 -----%
+initvideosync
+videoclient2
+ca
+videoclient2\
+videoclient2
+ca
+%----- Starting MATLAB at 4:51 PM 12/8/04 -----%
+initvideosync
+videoClient_DanTest20041207
+clear all
+initvideosync
+videoClient_DanTest20041207
+ca
+initvideosync
+ReceiveDataTest3
+ReceiveDataTest3(1000000)
+initvideosync
+clear all
+initvideosync
+videoClient_DanTest20041207
+ca
+%----- Starting MATLAB at 11:37 AM 12/13/04 -----%
+initvideosync
+videoclient2
+ca
+initvideosync
+videoclient2
+ca
+%----- Starting MATLAB at 1:19 PM 12/14/04 -----%
+initvideosync
+videoclient2
+ca
+initvideosync
+videoclient2
+ca
+videoclient2
+ca
+videoclient2
+ca
+%----- Starting MATLAB at 12:56 PM 1/4/05 -----%
+help dec2bin
+help bin2hex
+help dec2hex
+help bin2dec
+help dec2hex(bin2dec('1000000'))
+dec2hex(bin2dec('1000000'))
+dec2hex(bin2dec('1000000'))
+bin2dec('1000000')
+dec2hex(bin2dec('10000000'))
+bin2dec('1000000')
+dec2hex('64')
+help dec2hex
+dec2hex(64)
+exit
+%----- Starting MATLAB at 10:18 AM 1/24/05 -----%
+initvideosync
+who
+ls
+edit Flicker.m
+edit
+help screen
+screen('fillrect?')
+help kbcheck
+c
+screen('closeall')
+help kbName
+? kbname
+keyIsDown
+qqqqqqq
+exit
+%----- Starting MATLAB at 2:47 PM 1/30/05 -----%
+ls
+initvideosync
+Flicker
+%----- Starting MATLAB at 4:53 PM 1/31/05 -----%
+initvideosync
+videoTemponet
+ca
+%----- Starting MATLAB at 10:35 AM 2/1/05 -----%
+initvideosync
+videotemponet
+ca
+ca
+videotemponet
+ca
+videotemponet
+c
+ca
+videlclient2
+videoclient2
+c
+ca
+videoclient2
+ca
+videoclient2
+ca
+flicker
+ca
+videoclient2
+ca
+videoclient2
+videoclient2
+ca
+%----- Starting MATLAB at 11:09 AM 2/7/05 -----%
+initvideosync
+videoclient2
+ca
+videotemponet
+ca
+videotemponet
+ca
+exit
+%----- Starting MATLAB at 9:59 AM 2/10/05 -----%
+initvideosync
+videoclient
+ca
+videoclient2
+ca
+videoclient2
+ca
+videoclient2
+ca
+videoclient2
+ca
+exit
+%----- Starting MATLAB at 10:47 AM 2/14/05 -----%
+initvideosync
+videotemponet
+ca
+videotemponet
+ca
+exit
+%----- Starting MATLAB at 10:20 AM 3/7/05 -----%
+initvideosync
+videotemponet
+clear all
+%----- Starting MATLAB at 9:41 AM 3/8/05 -----%
+initvideosync
+videotemponet
+ca
+videotemponet
+ca
+videotemponet
+ca
+videotemponet
+ca
+videotemponet
+ca
+videotemponet
+ca
+videotemponet
+ca
+videotemponet
+ca
+%----- Starting MATLAB at 9:17 AM 3/21/05 -----%
+initvideosync
+videotemponet
+ca
+videotemponet
+ca
+videotemponet
+clear all
+exit
+%----- Starting MATLAB at 6:45 PM 3/23/05 -----%
+ver
+help psychtoolbox
+exit
+%----- Starting MATLAB at 7:09 PM 3/23/05 -----%
+exit
+%----- Starting MATLAB at 12:14 PM 4/8/05 -----%
+initvideosync
+videotemponet
+ca
+%----- Starting MATLAB at 11:33 AM 4/21/05 -----%
+initvideosync
+videotemponet
+ca
+exit
+%----- Starting MATLAB at 5:25 PM 5/12/05 -----%
+initvideosync
+videotemponet
+ca
+videotemponet
+ca
+exit
+%----- Starting MATLAB at 5:07 PM 5/21/05 -----%
+initvideosync
+videotemponet
+c
+ca
+exit
+%----- Starting MATLAB at 10:32 AM 5/27/05 -----%
+initvideosync
+videotemponet
+videotemponet
+ca
+%----- Starting MATLAB at 11:42 AM 6/12/05 -----%
+initvideosync
+videotemponet
+ca
+%----- Starting MATLAB at 1:35 PM 6/15/05 -----%
+initvideosync
+videotemponet
+ca
+videotemponet
+ca
+videotemponet
+ca
+%----- Starting MATLAB at 3:08 PM 6/22/05 -----%
+initvideosync
+videotemponet
+videotemponet
+ca
+%----- Starting MATLAB at 1:22 PM 10/15/05 -----%
+initvideosycn
+initvideosync
+videotemponet
+videotemponet
+ca
+%----- Starting MATLAB at 3:06 PM 10/30/05 -----%
+edit videotempobet
+edit videotemponet
+DOTS_CLUT
+edit videotemponet
+edit initscreen4
+global DOTS_CLUT
+DOTS_CLUT=zeros(256,3);
+for i = 101:256,
+    lvalue = floor(255/(256-101)*(i-101));
+    DOTS_CLUT(i,:) = lvalue*[1 1 1];
+end
+DOTS_CLUT(1,:) = [0 0 0];
+DOTS_CLUT(2,:) = [255 255 255];
+imshow(DOTS_CLUT)
+imagesc(DOTS_CLUT)
+edit initscreen4
+clear
+initvideosync
+videotemponet
+ca
+edit nprepSrch
+initvideosync
+videotemponet
+vs
+ca
+exit
+%----- Starting MATLAB at 11:30 AM 1/6/06 -----%
+clear all
+exit
+%----- Starting MATLAB at 11:39 AM 1/6/06 -----%
+path
+path
+which videotempobet
+which videotemponet
+which videotemponet
+which videoclient
+which videoclient2
+exit
+%----- Starting MATLAB at 5:48 PM 1/6/06 -----%
+exit
+%----- Starting MATLAB at 7:27 PM 1/6/06 -----%
+exit
+%----- Starting MATLAB at 7:32 PM 1/6/06 -----%
+ver
+exit
+%----- Starting MATLAB at 12:15 PM 1/11/06 -----%
+initvideosync
+videotemponet
+ca
+%----- Starting MATLAB at 12:29 PM 2/10/06 -----%
+initvideosync
+videotemponet
+clear screen
+now
+datestr(now)
+path

@@ -1,0 +1,7 @@
+nboot=500;
+criterion=0.7;
+offset=100;  % Offset 100 ms;
+preactivity=0;  % From Align Event
+postactivity=400;   %to 400 ms after Align Event
+SpikeArrayBeg=preactivity-(PreTimeVal-offset);      
+SpikeArrayEnd=postactivity-(PreTimeVal-offset);     %to 300 ms after Align Event

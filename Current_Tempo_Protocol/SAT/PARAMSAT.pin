@@ -1,0 +1,380 @@
+/*************/
+/* variables */
+/*************/
+//7/8/10 - BAP edited
+declare int point_num = 9999;
+declare float ecc_hv;
+declare float ecc_obl;
+declare angle_vector[10] = {-1,2,6,4,0,3,1,5,7,-1};
+declare ecc_vector[10];
+
+//punish time for repeated failure to fixate
+declare int no_fix_counter = 0;
+
+//9/12/07 - RPH	edited
+//added error codes
+HIDE declare errorcode  = 0;
+
+// do you want to use the mouse to control eye position for debugging?
+hide declare mouseeye = 0;
+
+/* microStimulation parameters */
+hide declare mStimProb = 0; /* probability of receiving mStim */
+hide declare mStimDur = 500; /* duration of stim train in ms */
+hide declare mStimDelay = -100;	/* time stim train begins relative to target onset */
+hide declare StimAfterJuice = 0; // do you want to stimulate after juice? (use for initial test of saccade evokation)
+
+
+/* session by session parameters */
+declare iColMax = 140;
+declare iColMin = 40;
+declare iColBin = 10;
+
+/* gain setting for each monkey */
+/* Seymour          */
+//hide declare    XGAIN = 75;
+//hide declare    YGAIN = 32;
+//hide declare    XYF = 7;
+//hide declare    YXF = 0; 
+
+/* Quincy */
+hide declare XGAIN = 3;
+hide declare YGAIN = -3;
+hide declare XYF = 0;
+hide declare YXF = 0;
+
+/* variables and processes for tempo2plexon communication */
+declare int value;   
+declare int get = 0, put = 0;               		// get and put indexes into xmit[]
+declare int constant nXMIT = 80;            		// Size of xmit[]
+declare int xmit[nXMIT];                    		// Transmit array to Remote system
+declare int constant nEventsPerProcessCycle = 10; 	// Max # of events sent per process cycle
+declare int eventCode;								// number is assigned before queuing
+declare int usec = 150;
+declare int REMOTE_TTL=0; 							// which 8255 Digital I/O chip is used for TTL out to plexon
+declare HEX dio_a,dio_b;							// port assignment
+
+/* screen parameter */
+hide constant   XMAX = 800;
+hide constant   YMAX = 600;
+
+/* search parameter in circular array               */
+/* server(TEMPO)/client(MATLAB) parameters          */
+/* variable naming convention: mXXXX                */ 
+
+declare MAXPOS = 8;          /* initialized max position */
+declare mMAXPOS = 8;         /* number of position       */
+declare mAngl = 0;           /* initial angle            */
+declare mEccy = 8;          /* eccentricity             */
+declare mTRS = 25;           /* target reference size    */
+declare mHolder = 0;         /* place holder flag        */
+
+
+/* item parameters                              */
+/* controled in dialogue or not                 */
+/* variable naming convention: iXXXX            */
+
+hide constant   MAXPAIR = 6;    /* max target/distractor pair   */
+hide constant   MAXTGT = 4;     /* max target category          */
+hide constant   MAXDIST = 4;    /* max distractor category      */
+
+/* fixation */
+declare iFFix = 1;          /* filled fixation              */
+declare iEFix = 2;          /* empty fixtation type         */
+declare iFixS = 10;         /* fixation size                */
+
+declare iDFlag[MAXPAIR] = {0,0,1,0,1,0};                                /* density distractor homo:0 , hetero: 1*/
+declare iTgt[MAXPAIR,MAXTGT] = {3,3,3,3, 11,11,11,11, 11,11,11,11, 21,21,21,21, 21,21,21,21, 1,1,1,1}; 
+declare iDist[MAXPAIR,MAXDIST] = {0,0,0,0, 21,22,23,24, 21,22,23,24, 11,12,13,14, 11,12,13,14, 1,1,1,1};
+declare iMask[MAXPAIR] = {0,0,0,0,0,0};                                 /* mask off: 0, mask on: 1      */
+declare iTArray[MAXPAIR] = {100, 2000, 2000, 2000, 2000, 2000};         /* array duration (ms)          */
+declare iCFreq[MAXPAIR] = {0,0,0,0,0,0};                            /* catch frequency              */
+declare iNGFreq[MAXPAIR] = {0,0,0,0,0,50};								/* nogo frequency*/
+declare iFreq[MAXPAIR] = {0,1,1,0,0,0};                               /* frequency among 6 items      */                                     
+declare iAgain[MAXPAIR] = {1,0,0,0,0,0};                                /* reappear after correct trial */
+declare iFreqSum = 100;
+declare iGrpTgt[MAXPAIR] = {-1,-1,-1,-1,-1,-1};                         /* group assignment number      */
+declare iColor;     // special color index for memory-guided saccade
+
+declare MAXITEM = 37;     // 0 slot for non coding
+
+declare posUserSet = -1;  // for use to force target position to user specified location
+
+/* SAT PARAMETERS */
+declare includeMed = 1; // include med (WHITE) condition
+declare FlipCond = -1; // if -1, will hold at current condition.  Otherwise, will swap between fast and slow conditions every N trials
+declare totTrls = 0; // total number of trials so far, including made and missed deadlines
+declare setTrls = 0; // number of trials in current set (condition)
+
+declare NoRespPun_fast = 4000; /*in FAST condition, punish if not a catch and NO response before deadline */
+declare NoRespPun_slow = 0; /* same as above for SLOW condition (will rarely have any effect but coded to be complete */
+
+declare NoRespPun = 0; /* For EventCode purposes.  This is current state of variable */
+declare wasResp; //was there actually a response? If not, might want to punish
+
+declare ClearAtDead = 1; /* Do you want trial to end and display to clear at the deadline?*/
+declare prc_Clear = 50; /* What % of FAST trials do  you want to clear at deadline? */
+
+declare SAT_condSet = 4; /*placeholder for what SAT cond will actually be.  0 == RANDOM */
+declare SAT_cond; /* Color Type AND SAT condition: 1 = White (Med);  2 = RED (Slow)   3 = GREEN (Fast)  3 = RANDOM */
+//declare SAT_blk = 1; /* Do you want to block or present randomly? */
+
+declare SAT_fast = 450;	 /* These set the cutoff times based on RT_x condition below */
+declare SAT_med = 2000;
+declare SAT_slow = 500;
+
+declare respWin = 2000;   /* invisible deadline response window. */
+declare fixColor = 1; /* color of fixation point */
+declare fixColor2 = 1; /* color of fixation nogo stimulus*/
+
+// initializing as float because we were losing precision due to rounding error (using weighted mean)
+declare float RT_fast; /*This displays the average RTs within the session */
+declare float RT_med;
+declare float RT_slow;
+
+declare float ACC_fast; /* keep track of accuracy rates for SAT conditions */
+declare float ACC_med;
+declare float ACC_slow;
+
+declare float n_fast = 0; /* How many trials of each condition have we run? */
+declare float n_med = 0;
+declare float n_slow = 0;
+
+declare float n_cor_fst = 0; /*How many correct trials have we run */
+declare float n_cor_med = 0;
+declare float n_cor_slo = 0;
+
+declare float n_miss_slo = 0; // how many SLOW trials were too fast?
+declare float n_miss_fst = 0; // how many FAST trials were too slow?
+declare float n_err_slo = 0; // how many SLOW trials had some kind of response error
+declare float n_err_med = 0; // how many MED trials had some kind of response error
+declare float n_err_fst = 0; // how many FAST trials had some kind of response error
+declare float prc_miss_slo = 0; //percent of SLOW trials that were too fast
+declare float prc_miss_fst = 0; //percent of FAST trials that were too slow
+
+declare rwd_fast = 35; /* Differential reward rate manipulation */
+declare rwd_med = 35;
+declare rwd_slow = 35;
+declare rwd_delay = 750; /* delay of solenoid after tone*/
+
+declare currRT = 0; /* Temporarily holds current saccade latency */
+declare corRTs_f[5000]; /* Holds all correct RTs so can get percentiles */
+declare corRTs_m[5000];
+declare corRTs_s[5000];
+
+declare float prct = .50; /* what percentile do you want to calculate? */
+declare prct_f; /* stores x percentile of RTs for each condition */
+declare prct_m;
+declare prct_s;
+
+// Color settings in RGB values
+declare white[3] = {162,162,162};
+declare black[3] = {0,0,0};	/* can also use this to set the background color */
+declare red[3] = {255,0,0};
+declare green[3] = {0,139,0};
+declare blue[3] = {0,183,235};
+
+declare 
+/* for white T & L */
+
+declare iCol[MAXITEM,2] = {0,0, 1,1, 2,1, 3,1000, 4,2, 5,3, 6,0, 7,0, 8,8, 9,9, 10,0, 11,1, 12,1, 13,1, 14,1, 15,1, 16,0, 17,0, 18,0, 19,0, 20,0, 21,1, 22,1, 23,1, 24,1};
+declare iColCopy[MAXITEM];
+
+
+/* balancing parameters to compensate the random number generator */
+declare bFM_TgtP[mMAXPOS+1];  // frequency of the target position monitor
+
+
+/* trial parameters                         */
+/* variable naming convention: lXXXX        */
+hide declare    lTask = 2;      /* 0: fix, 1: det, 2: search    	*/
+hide declare    lSetSFlg = 2;   /* set size 0:2, 1:4, 2:8 	3:rand  */
+hide declare    lSetS;          /* set size                     	*/
+hide declare    lTrig = 2;      /* raster plot trigger          	*/
+
+hide declare    lGrpOn = 0;     /* grouping of the target on = 1*/
+hide declare    lGrpRep = 10;   /* num of group repitition      */
+hide declare    lGrpPrv = 0;    /* previous group               */
+hide declare    lGrpCur = 0;    /* current group                */
+hide declare    lGrpCnt = 0;    /* lGrpCnt = counter to track current number of trials so far in block                   */
+hide declare 	lRndRep = 0;	/* lRndRep = 1, sample num group reptitions from [lGrpMin lGrpRep], 0 = always use lGrpRep*/
+hide declare	lGrpMin = 1;	/* defines minimum of range to randomly sample*/
+
+
+declare lObjt[mMAXPOS];         /* all target/distractor set    */
+declare lPair;                  /* selected pair                */
+declare lCue;                   /* cue flag                     */
+declare lTgtP;                  /* target position -1: catch    */
+declare lSEnd;                  /* saccade ending position      */
+declare lAngl;                  /* array orientation            */
+
+/* temporal control flow parameter              */
+/* various timing parameters in flow control    */
+/* naming convention tXXXX                      */
+hide declare    tGoOn = 1;         /* flow control flag                             */
+hide declare    tIsRun = 0;        /* interruption flag                             */
+hide declare    tIsAbort = 0;      /* abort flag                                    */
+hide declare    tIsCatch = 0;      /* catch flag                                    */
+hide declare	tIsNoGo = 0;		/* nogo flag									*/
+
+hide declare    tITI = 1000;        // intertrial interval     For some reason if < ~800 ms, fixation on code is delayed 
+hide declare	tITIabort = 100;	// intertrial interval following an abort (eye entered/left fixation box)        
+hide declare    tFixAcqT = 1000;   // fixation acquisition time, decide the blinking rate 
+hide declare    tFix2Stm = 1000;    // from fixation to stimulus on, fixation maintenance time
+hide declare    tMaxHold = 0;      // hold time
+hide declare    tMaxSacL = 2000;   // maximum time to leave fixation window after stim on   
+hide declare    tWaitTgt = 750;    // minimum time in target window
+hide declare    tWaitCat = 750;    // minimum time in catch window
+hide declare    tExtrRec = 0;    // extra recording time
+
+hide declare    tMinInFx = 50;     // minimum time in fixation to avoid cheating
+hide declare    tMaxInBt = 50;    // maximum time in between fixation and target
+hide declare    tAgain = 250;      // reappear time
+
+hide declare    tJitFixx = 200;     // tFix2Stm jitter
+hide declare    tJitHold = 40;     // tMaxHold jitter
+hide declare    tPunish = 2000;       // tPunish time in dialog box
+hide declare    tPunishTime = 2000;   // For coding purposes & non-SAT version; what is current state of punish time for error
+hide declare	tPunish_slow = 4000; // Punish time for error in FAST condition
+hide declare	tPunish_fast = 0; // Punish time for error in SLOW condition
+
+hide declare	tCalibLoc = 3;	   // Screen location for calibration
+hide declare	calSwitch = 0;	   // Switch to turn on calibration
+
+hide declare    tDead;
+hide declare    tFt;
+hide declare    tHt;
+hide declare	trlStimP; //probability of stimulation drawn for trial
+hide declare	didStim;  //did we stimulate yet?  If so turn off (for use in while-loop)
+hide declare	StartTime; // time at which catch trial began: needed for stimulation			
+
+//delay between bell and juice
+hide declare	JuiceDelay = 0;
+
+	   
+/* training & reward parameter          */
+/* variable naming convention rXXXX     */
+
+hide declare    rBell = 1;      /* 1:On, 0:Off                  */
+hide declare    rJuice = 35;    /* amount of juice              */
+hide declare    rEveryRwd= 1;   /* every nth reward option      */
+hide declare	rBigJuice= 0;	/* if >0, reward with double amount of juice with probability p */
+hide declare    rWaitRwd = 1;   /* every reward counter         */
+hide declare    rJuiceGo = 0;	/* juice go or not				*/
+hide declare	rRwdProb = 100;   /* probability of reward - variable ratio schedule */
+
+declare rErrCPos = 0;           /* error correction position    */
+declare rErrCPair = 0;          /* error correction pair        */
+declare rPrvPos = 1;            /* previous position succ/fail  */
+declare rPrvPair = 1;           /* previous pair succ/fail      */
+
+/* eye monitor parameter                            */
+/* mainly used by TEMPO to track eye movement       */
+/* and signal in or out of the window               */
+/* eXXXX convention, oXXXX convention for TIODIO    */
+hide constant   BEGSL = 0;          /* init saccade latency */ 
+hide constant   ENDSL = 400;        /* last saccade latency */
+hide constant   NUMRUN = 15;
+hide constant   NUM_SAMPLES = 15;
+
+hide declare    eHalfFix;           /* fix in/out boundary  */
+hide declare    eWL, eWR, eWU, eWD; /* window left/right/.. */
+hide declare    eWL0, eWR0, eWU0, eWD0;	 
+hide declare    eWL1, eWR1, eWU1, eWD1;
+hide declare    eWL2, eWR2, eWU2, eWD2;
+hide declare    eWL3, eWR3, eWU3, eWD3;
+hide declare    eWL4, eWR4, eWU4, eWD4;
+hide declare    eWL5, eWR5, eWU5, eWD5;
+hide declare    eWL6, eWR6, eWU6, eWD6;
+hide declare    eWL7, eWR7, eWU7, eWD7;
+hide declare	saccLoc;
+
+hide declare    eInFix, eInTgt;
+hide declare    eFixx = 0;          /* eye position init    */
+hide declare    eFixy = 0;
+hide declare    oEYE[NUM_SAMPLES], oTGT, oFix, oFP;
+hide declare    oTICKSL[(ENDSL-BEGSL)/100-1];
+hide declare    oTICKSR[(ENDSL-BEGSL)/100-1];
+
+declare eyeX, eyeY;                /* current eye position         */
+declare eFixW = 100;               /* fixation window size         */
+declare eStmW = 150;               /* stimulus window size         */
+
+/* other TEMPO Window parameter             */
+hide declare    eFixSize = 10;
+hide declare    eFP_a = 0;	 //fixation location angle (actually, screen pos)
+hide declare    eFP_r = 0;	 //fixation eccentricity
+hide declare    eFP_x = 0;
+hide declare    eFP_y = 0;
+
+hide declare    ePosX[mMAXPOS];
+hide declare    ePosY[mMAXPOS];
+hide declare    eOrigX[mMAXPOS] = {142,100,0,-100,-142,-100,0,100};
+hide declare    eOrigY[mMAXPOS] = {0,-100,-142,-100,0,100,142,100};
+
+hide declare    eSTgt = 25; /* target size      */
+hide declare    eCIRsize, eSQRsize;
+
+/* PLC parameters   */
+/* hide constant   MNAPFix = 9;   changed for dosToTemponet*/
+/* hide constant   MNAPTrg = 10;  */
+/* hide constant   MNAPEnd = 11;  */
+/* discard these variables, they were used in old tempo machine
+hide constant   MNAPFix = 1;
+hide constant   MNAPTrg = 2;
+hide constant   MNAPEnd = 3;
+*/
+
+/* saccade & response counter      */
+/* variable naming convention cXXX */
+declare ccSF;               /* current success/fail     */
+declare ccSL;               /* current saccade latency  */
+declare cFixBrk;            /* fixation break           */
+declare cNotFix;            /* not fixation count       */
+declare cASucc, cAFail;     /* total success and fail   */
+declare nBellOnly;			/*count number of bell only, juice, big juice trials*/
+declare nJuice;
+declare nBigJuice;
+
+//Juice and bell times
+declare JUICE_TIME;
+declare BELL_TIME;
+
+//juice amt given on particular trial
+declare rJuice_save;
+
+//COUNT CONSECUTIVE ABORTS -- make sure monks aren't just sitting around
+declare trlAborts = 0; //number of consecutive aborts in a trial
+declare NtrlAbts = 10; //after X in a row, penalty
+declare tAbortPen = 10000; //turn off task for X seconds
+
+//Error Codes
+
+declare cAbort = 0; //total number of aborts
+declare cCatchErr = 0;
+declare cHoldErr = 0;
+declare cLatErr = 0;
+declare cTargHoldErr = 0;
+declare cSaccDirErr = 0; //error codes
+
+declare cSL[MAXPAIR,mMAXPOS+1];
+declare cSucc[MAXPAIR,mMAXPOS+1];  // maxpos + catch
+declare cFail[MAXPAIR,mMAXPOS+1];  // maxpos + catch
+
+declare cPSucc[mMAXPOS+1];     // position result summary
+declare cPFail[mMAXPOS+1];
+declare cPSL[mMAXPOS+1];
+declare cTSucc[MAXPAIR];
+declare cTFail[MAXPAIR];
+declare cTSL[MAXPAIR];
+declare cSetSucc[3];
+declare cSetFail[3];
+declare cSetSL[3];
+declare cSetSumSL[3];
+declare cSetSumCnt[3];
+
+// temporary variable to measure the time delay between signals
+declare t_1, t_2, t_3, t_4;
+
+declare depthM1 = 0;		// microdrive depth 1
+declare depthM2	= 0;		// microdrive depth 2

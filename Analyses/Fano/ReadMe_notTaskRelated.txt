@@ -1,0 +1,2 @@
+To construct Fano Factor for real neurons with no task related response, plotted each
+neuron without a defined RF & MF, and marked neurons that were clearly not just noise (had appreciable spike counts) and no clear visual/movement response.  If it cleared that test, I then looked at the waveforms in the .plx file to ensure that the neuron was not simply multiunit.

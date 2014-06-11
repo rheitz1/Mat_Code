@@ -1,0 +1,5 @@
+macsfz_m.060506b		AD09
+macsfz_m.060706b		AD09
+macsfz_m.062606b		AD12
+macsfz_m.062606b		AD14
+macsfz_m.071206b		AD09

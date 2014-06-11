@@ -1,0 +1,25 @@
+The file SimulateModelsPublic.m can be used to run versions of the models 
+presented in Purcell, Heitz, Cohen, Logan, Schall, & Palmeri.  Neurally Constrained 
+Modeling of Perceptual Decision Making.  Psychological Review.  In Press (April, 2010)
+
+This code will run 1000 simulations using the pooled data set and will plot (1) the observed
+and predicted response time distributions and (2) the average model input and the average 
+predicted trajectory for 10 simulated trajectories with consective ordered RTs sampled
+from the median of the predicted distribution.
+
+Default parameter settings define the Gated Race model (from Table 2).
+
+IMPORTANT: This code cannot operate without the data located in the 'Data' directory
+that should have been downloaded with this code.  The 'Data' folder must be located
+in the current directory.
+
+In addition, the following files are necssary for this code to run:
+GetModelInput.m
+mod_spikedensityfunct.m
+model.m
+PlotModelOutputPublic.m
+
+Code written by: Braden Purcell (braden.a.purcell@vanderbilt.edu)
+Date: April 5, 2010
+ 
+We regret that we cannot support this code in any way.

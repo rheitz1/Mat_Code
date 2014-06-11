@@ -1,0 +1,1 @@
+function sd(tempo_stimulus_duration_msec)global stimulus_duration_secstimulus_duration_sec = tempo_stimulus_duration_msec/1000; % TEMPO sends time in milliseconds, not seconds.

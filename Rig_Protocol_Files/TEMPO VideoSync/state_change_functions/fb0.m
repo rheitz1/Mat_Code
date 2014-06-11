@@ -1,0 +1,1 @@
+function fb0global fixation_blinking_on fixation_blinking_state% Turn off fixation blinking and set it in high state.fixation_blinking_on = 0;fixation_blinking_state = 1;

@@ -1,0 +1,102 @@
+; TEMPO PROTOCOL CONFIGURATION FILE
+; Copyright 1997-2011 Reflective Computing.  All Rights Reserved.
+; This file was created by TEMPO and should not be edited directly by the user.
+; The commands in this file are undocumented and subject to change in future releases.
+; Fri Jul 22 17:08:16 2011
+; CLOAD SAT_bprh.pcf
+
+; tempow 10.20 Set 35.10   'TEMPOCLIE1309' connected to 'TEMPO30Server'
+; KPED 10.24 Set 35
+; KSRV 10.18 Set 35.10 (Server 'TEMPO30Server   ' running on computer '')
+; PCL 0.0     TEMPO 0.0
+; ANALOGRESOLUTION=16
+; WARNING=3
+; SPEED=1000.000000  PROSPEED=500.000000  (100/100000 Sec/SampleSet)
+; ASETS=2(2)  CSETS=2(2)  ESETS=2(2)
+; ACHANNELS=2
+; CCHANNELS=2
+; ECHANNELS=2
+;
+;                          Protocol Usage of Kernel Resources  
+;
+; Parameter       Limit          Used    Pct        Bytes/Total        Develop    Stable
+; -------------   -------     -------  -----        -----------        -------    ------
+; PROCESSES       =200             49    25%         1176/4800          =70        =52      
+; INSTRUCTIONS    =3000          1522    51%        27380/54000         =1903      =1602    
+; SYMBOLTABLE     =2000           698    35%         8376/24000         =821       =735     
+; HASHTABLE       =     257,2000         35%         5706/13542       Use Kernel Default
+; NAMETABLE       =10000         6251    63%         6251/10000         =7354      =6580    
+; DATABASES       =16               3    19%          180/960           =3         =3       
+; ARRAYTABLE      =1000           396    40%          396/1000          =495       =408     
+; ARRAYDATA       =261120       62880    24%        62880/261120        =78600     =64825   
+; OBJECTS         =32              19    59%          836/1408          =21        =20      
+
+LOG SRCHWIN.log
+SPEED 1000
+
+; ANALOG TABLE SETTINGS
+;; ACHANNELS=2
+
+; SPIKE TABLE SETTINGS
+;; CCHANNELS=2
+
+; EVENT TABLE SETTINGS
+;; ECHANNELS=2
+
+PLOAD SAT_bprh.PRO
+
+; DATABASES=16
+
+HOPEN  1,5,1,1,1,2230,1750,375,0,3,0x0
+HTITLE 1,"Events"
+HFILE  1,"SRCHWIN.htb"
+HOPEN  2,7,1,1,2,2230,1750,375,0,3,0x0
+HTITLE 2,"Eye movements"
+HFILE  2,"SRCHWIN.htb"
+HOPEN  3,3,1,1,1,2230,7000,1500,0,0,0x0
+HTITLE 3,"Spikes"
+HFILE  3,"SRCHWIN.htb"
+
+; WINDOW CONFIGURATION
+
+SCREENRES 1152,864,32
+MAINWND 3,-1,-1,-1,-1,130,130,1000,740,0
+MSGWND 1,-1,-1,-1,-1,340,40,870,330,0
+STATUSWND 1,-1,-1,-1,-1,525,426,1108,789,0
+SHOW s 0
+
+CMDWND 1,-1,-1,-1,-1,0,40,339,90,0
+ANIMPAGE 0x1,1,-1,-1,-1,-1,870,40,1150,330,0
+ANIMVIEW 0,1,-1,-1,-1,-1,0,0,272,263,0
+
+; DATABASES PAGES & VIEWS
+
+DBPCOLORS 0x0,0x0,0x0,0x0,0x0
+
+; END GRAPH CONFIGURATION
+
+DLOAD SAT_bprh.dcf
+
+; BEGIN KEY DEFINITIONS
+
+KEY F1 = DIALOG menu{CR}
+KEY F2 = SPAWN CALIB
+KEY F3 = START{CR} tGoOn = 1{CR}
+KEY F4 = tGoOn = 0 {CR} SPAWN TRIAL_STOP{CR}
+KEY F5 = SPAWN CAL_FIX{CR}
+KEY F7 = HZERO 4 TO 15{CR}
+KEY CF7 = SPAWN CNT_RESET{CR}
+KEY SF7 = SPAWN INIT_VAR{CR}
+KEY F8 = STOP{CR}HSAVE 1 TO 3
+KEY F10 = SPAWN mSTIM{CR}
+KEY CURUP = SPAWN RWD_JUICE{CR}
+KEY CF12 = SPAWN RE_CLUT{CR}
+KEY CURRT = SPAWN CALIB_INCR
+KEY CURLF = SPAWN CALIB_DECR
+KEY CURDN = SPAWN CALIB_EXE
+KEY CTRLCURRT = SPAWN CALIB_EXE_LONG
+KEY F6 = SPAWN RWD_BELL
+KEY ALTB = spawn SET_BLACK
+
+; END KEY DEFINITIONS
+

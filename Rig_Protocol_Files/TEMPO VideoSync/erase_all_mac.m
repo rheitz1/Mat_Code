@@ -1,0 +1,1 @@
+function erase_all_macglobal prepared_stimulus prepared_stim_index% By clearing the prepared_stimulus global structure% and resetting prepared_stim_index to zero, all% previous stimuli are cleared.% This also happens at the top of videoTempoNet.m.clear prepared_stimulus;prepared_stim_index = 0;

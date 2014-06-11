@@ -1,0 +1,1 @@
+function fb1global fixation_blinking_on fixation_blinking_state fixation_blinking_counter% Turn on fixation blinking and set it in low state.fixation_blinking_on = 1;fixation_blinking_state = 0;fixation_blinking_counter = 1; % Reseting counter only necesary when turning fixation blinking on.

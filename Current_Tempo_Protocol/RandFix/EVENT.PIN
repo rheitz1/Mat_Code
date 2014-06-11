@@ -1,0 +1,24 @@
+/*
+Numbers 1 through 5 are reserved to code the task level
+
+Numbers 300 through 399 are reserved for primary target
+and numbers 400 through 499 for possible duel/dual target
+*/
+
+hide NOGOTRL       = 10;
+hide TRIG_CHNG     = 20;
+hide EV_FIXON      = 30;
+hide EV_FIXOFF     = 40;
+hide EV_FIXATE     = 50;
+hide EV_TRIGGER    = 60;
+hide EV_TARG_ON    = 2650;
+hide EV_TARG_OFF   = 80;
+hide EV_SAC_BEG    = 90;
+hide EV_SAC_END    = 100;
+hide EV_REWARD     = 110;
+hide EV_JUICE      = 120;
+hide EV_ABORT      = 130;
+hide EV_SCREENOFF  = 140;
+hide EV_BOT        = 1666;
+hide EV_EOT        = 1667;
+hide EV_HOLD_OFF   = 2800;

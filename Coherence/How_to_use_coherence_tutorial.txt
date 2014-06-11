@@ -1,0 +1,97 @@
+Coherence tutorial.
+Specifically , Spk_LFPCoh
+
+[coh,f,tout,Sx,Sy,Pcoh,PSx,PSy,N,dn,nwin,err,tmpdf1,tmpdf2] = Spk_LFPCoh(Spk,Y,tapers,t0,bn, sampling, dn, fk, plotflag, pad, pval, JustPartFlag,errType,ZTransFlag,ClusShuffOpts)
+
+OUTPUT
+
+coh = regular coherence
+f = frequency
+tout = center of time window
+Sx, Sy = regular frequency spectra
+Pcoh = partial coherence (coherence of fourier residuals.  
+	You 'subtract' the fourier of the mean evoked potential, 
+	or something along those lines, before you compute each t/f coherence)
+PSx,PSy = partial spectra
+N = length of time window in seconds
+dN =  time step in seconds (e.g., .01 is default for a 10 ms time step)
+win = number of windows
+err = structure containing results from shuffle test (see below). 
+	NOTE: SHUFFLE TESTS WILL ONLY RUN IF THIS IS INCLUDED AS AN OUTPUT.  
+	LEAVING THIS OUTPUT BLANK BASICALLY TURNS SHUFFLING OFF
+
+INPUT
+
+Spk = spike train, with all 0 values replaced with NaN, and times altered to 
+	reflect baseline period.  E.g., if a spike at 0 is actually -500, then you 
+	have to subtract 500 from all times)
+
+Y = LFP
+
+tapers = tapers, with default values being [.2 5], or a 200 ms time window with a 
+	5 Hz half-bandwidth (functionally 10 Hz)
+
+t0 = first time point in LFP. Necessary so spike times will align.  Have been using -500
+
+bn = time range to include from spikes.  Have been using [-500 2500] to include all time points
+
+sampling = sampling rate of LFP. Have been using 1000
+
+dn = time step. Have been using .01 for a 10 ms time step
+
+fk = frequency range to return.  Have been using [0 100]
+
+plotflag = do you want to produce a plot? Have been using 0
+
+pad = amount of 0 padding on matrix.  For some reason, the larger the pad, 
+	the higher resolution you get back. Have been using 4
+
+pval = p value you want to use for shuffle tests
+
+JustPartFlag = do you want to return only the partial coherence?  If set to 1, 
+	then coh actually comes back as the Pcoh
+
+errType = Has something to do with the type of estimation for error bars.  Have been using the default, 2
+
+ZTransFlag = type of Z transform you want to do. 0 == raw, 1 = Fisher Z, 2 will 
+	return the bias corrected version in raw units (i.e., it attempts to correct for differences in # of trials). Have been using 2.
+
+ClusShuffOpts = Options for cluster shuffling. As long as 'err' is included in the output arguments, 
+		shuffle tests will run.  The type of test is determined by the ClusShuffOpts so they are important.
+	ClusShuffOpts.nShuffs = # of shuffles to do.  Have been using the default, 5000
+	ClusShuffOpts.TestType = 1:  within condition tests (i.e., an activity period versus a baseline period
+		if TestType == 1, it will calculate significant regions (versus baseline) for all trials that you send to it.
+	ClusShuffOpts.TestType = 2: between condition (but within session) comparisons.  Will test all time 
+		points within ActPer (have been using [0 800]).
+		
+		if TestType == 2, you will have to specify the *grouping* of the trials to conditions.
+			ClusShuffOpts.TrType should be 1 for condition 1 and 2 for condition 2.  This is input as a vector. 
+				NOTE THAT YOU SEND THE COHERENCE THE SPIKE & FIELD MATRICES LIMITED TO THE TRIAL NUMBERS YOU ARE TESTING BASED ON YOUR TrType INPUT
+				
+				Note also that when using these shuffle tests, the padding is automatically set back to 1, 
+				so you get back lower resolution results.  The actual matrices that come back are stored in the 
+				err struct (see below).
+
+err struct output:
+
+IF TESTTYPE = 2;  BETWEEN CONDITION TESTS:
+
+err.TrType1.Pcoh = the Pcoh matrix that was tested.  Padding will have been set to 1, so will be lower res than 
+	if you computed it w/o the err output and pad = 4
+err.TrType2.Pcoh = same, but 2nd trial type
+err.wintimes = center of time window from the shuffle tests.  If ActPer = [0 800], wintimes should range from 100 to 700
+err.Coh
+	err.Coh.Pos.SigClusAssign = matrix of numbers indicating the cluster number that attained significance 
+		over null test distribution from shuffle tests
+	err.Coh.Pos.SigClusTFCens = center of cluster's [time freq] space, for each significant cluster
+	err.AllClusAssign = all detected clusters, regardless of if significant or not
+	err.SigClusSums = the sum of the rank-sum T-values within each cluster.  There will be 1 number/significant cluster
+	err.AllClusSums = the sum of the rank-sum T-values within each cluster.  There will be 1 number/detected cluster, 
+		regardless of if that cluster was greater than the significance threshold determined through the shuffling procedure.  
+		Note that a cluster here that is NOT significant simply means that the T/F values did exceed 1.96, but were not greater 
+		than the maximum t-value sums from the shuffle tests.
+
+IF TESTTYPE = 1; WITHIN CONDITION TESTS (ACTIVITY PERIOD VERSUS BASELINE PERIOD)
+
+Unlike the above, there will be no TrType1 or TrType 2, because all given trial are tested against baseline
+	everything else remains the same but no Coh or PCoh matrices are returned.  Only the clustering data will exist.

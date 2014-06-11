@@ -1,0 +1,43 @@
+SQQ & STOCKQUOTEQUERY pull stock prices for a given ticker symbol
+from the YAHOO web server using the MATLAB Java URL interface.
+
+Michael Boldin  Ocober 2003  (michaelboldin@comcast.net or boldinm@wharton.upenn.edu)
+rev.  2/2007
+
+STOCKQUOTEQUERY has the main code. SQQ calls STOCKQUOTEQUERY and allows for either interactive (keyboard) inputs or as a function call with numerous options for setting dates.
+
+Outputs 
+   DATE:       Date for the quote
+   CLOSE:      Closing market price
+   OPEN:       Opening price
+   HIGH:       High price (during trading day or frequency period)
+   LOW:        Low price (during trading day or frequency period)
+   VOLUME:     Volume (during trading day or frequency period)
+   CLOSEADJ:   Close adjusted for splits 
+
+Use HELP SQQ for the full set of input and output options.
+
+STOCKQUOTEQUERY is based on GETSTOCKDATA by Peter Webb of Mathworks, as explained in the October 2002 MATLAB News and Notes article "Internet Enabled Data Analysis and Visualization with MATLAB"
+
+How to use SQQ & STOCKQUOTEQUERY
+   --Enter 'sqq' at the comand line for an interactive run.
+   --For a simple example that pulls recent data (over the past 7 days) for IBM,
+       try sqq('ibm',today,today-7).   
+   --SQQEXAMPLE.M has more examples, including a demonstration of two different types
+       of stock quote queries and also produces three charts.
+      
+How SQQ differs from GETSTOCKDATA
+   --verifies YAHOO server tables have 7 elements on a line before parsing the line.
+       The server tables sometimes show extra lines for dividend payments and splits. 
+   --close(breader); close(ireader); close(stream); commented out-- caused problems.
+   --adjusts query parameters to refer to January as month '0', not '1', and February 
+       as  '1', and so on. (This is a feature of the YAHOO system. STOCKQUOTEQUERY uses
+       1 to 12 numbering for months in the input-output parameter translation.) 
+   --flips data vectors to normal date order (increasing, oldest to most recent).
+   --does not require month(), day() or year() functions, uses datevec. 
+   --keeps VOLUME and CLOSEADJ data.
+   --SQQ has flexible input options, especially for dates. 
+   --R12 compatible. 
+ 
+   --Feb 2007, changed date format to 'yyyy-mm-dd' to match new YAHOO csv output
+

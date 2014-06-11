@@ -1,0 +1,1 @@
+function sw(tempo_stimulus_width_pix)global stimulus_width_pixstimulus_width_pix = tempo_stimulus_width_pix;

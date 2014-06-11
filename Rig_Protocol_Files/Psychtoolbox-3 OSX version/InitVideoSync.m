@@ -1,0 +1,1 @@
+% Daniel Shima 9/20/2007% For InitVideoSync.m port from Lab 030 OS9 Psychtoolbox-2 to Lab 023 OSX Psychtoolbox-3,% function completely unnecessary with all RVS5a commands in videoTempoNet,function InitVideoSync% No code, but keep function name so no error if InitVideoSync by force of habit.

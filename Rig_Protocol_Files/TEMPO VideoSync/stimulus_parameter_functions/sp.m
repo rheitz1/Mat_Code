@@ -1,0 +1,1 @@
+function sp(tempo_stimulus_position_x_pix,tempo_stimulus_position_y_pix)global stimulus_position_x_pix stimulus_position_y_pixstimulus_position_x_pix = tempo_stimulus_position_x_pix;stimulus_position_y_pix = tempo_stimulus_position_y_pix;
